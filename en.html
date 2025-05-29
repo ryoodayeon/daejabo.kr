@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="style.css" />
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+    </style>
+</head>
+<body>
+
+<main id="primary" class="site-main">
+    <nav class="top-nav-main">
+        <div class="nav-left" id="about-button" onclick="toggleAboutPage()">ABOUT</div>
+        <div class="nav-right">
+            <a href="index.html"><span class="link-text">KR</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="en.html"><span class="link-text">EN</span></a>
+        </div>
+        
+    </nav>
+    <div class="horizontal-container">
+        <div class="panel">
+            <div class="timeline-bar">
+                <div class="dot-wrapper" style="left: 0px;">
+                    <div class="dot-label">Dec 3, 2024</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">22:28</span>
+                            <span class="desc">President Yoon declares martial law.</span>
+                            <br>
+                            <span class="time">22:30</span>
+                            <span class="desc">Martial law troops enter the National Election Commission office in Gwacheon.
+                            </span>
+                            <br>
+                            <span class="time">23:23</span>
+                            <span class="desc">Martial Law Command issues proclamation orders.
+                            </span>
+                            </div>
+                    </div>
+                </div>
+                <div class="dot-wrapper" style="left: 105px;">
+                    <div class="dot-label">Dec 4</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">00:07</span>
+                            <span class="desc">Troops enter the National Assembly.</span>
+                            <br>
+                            <span class="time">01:03</span>
+                            <span class="desc">National Assembly passes a resolution demanding the lifting of martial law.</span>
+                            <br>
+                            <span class="time">04:30</span>
+                            <span class="desc">President lifts martial law.</span>
+                            <br>
+                            <span class="time">04:32</span>
+                            <span class="desc">Troops return to their original bases.</span>
+                            <br>
+                            <span class="time">14:40</span>
+                            <span class="desc">Opposition bloc submits the first impeachment bill against the president.</span>
+                            </div>
+                    </div>
+                </div>
+                <div class="dot-wrapper" style="left: 2386px;">
+                    <div class="dot-label">Dec 5</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">00:48</span> Impeachment bill reported to the 418-16 plenary session.<br>
+                        </div>
+                    </div>
+                </div>
+                <div class="dot-wrapper" style="left: 7952px;">
+                    <div class="dot-label">Dec 7</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">10:00</span>
+                            <span class="desc">President delivers first public address after martial law: “I entrust future governance, including my term, to the party.”</span>
+                            <br>
+                            <span class="time">21:26</span>
+                            <span class="desc">First impeachment bill fails due to insufficient participation (195 members) in plenary session (418-17).
+                            </span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="dot-wrapper" style="left: 9978px;">
+                    <div class="dot-label">Dec 8</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">00:48</span>
+                            <span class="desc">First impeachment bill automatically discarded as deadline passes.</span>
+                            <br>
+                            <span class="time">07:52</span>
+                            <span class="desc">Former Minister of National Defense Kim Yong-hyun arrested by prosecutors.</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="dot-wrapper" style="left: 10738px;">
+                    <div class="dot-label">Dec 9</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">15:30</span>Travel ban imposed on the President.<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 12254px;">
+                    <div class="dot-label">Dec 12</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="timexx">Morning(time unconfirmed)</span>President’s second national address: “I will fight to the end.”
+                            <br>
+                            <span class="timexx">Afternoon(time unconfirmed)</span>Opposition bloc submits second impeachment bill.
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 12508px;">
+                    <div class="dot-label">Dec 13</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">14:03</span>Second impeachment bill reported to the 419-3 plenary session.<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 12760px;">
+                    <div class="dot-label">Dec 14</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="timex">(time unconfirmed)</span>Second impeachment bill passes in plenary session (419-4):
+                            300 total members / 300 present / 204 in favor / 85 against / 3 abstentions / 8 invalid votes
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 13760px;">
+                    <div class="dot-label">Dec 26</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="timex">(time unconfirmed)</span>Impeachment bill submitted against Acting President and Prime Minister Han Duck-soo.<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 13849px;">
+                    <div class="dot-label">Dec 27</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">15:55</span>Impeachment of Acting President Han Duck-soo passes in the National Assembly.
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 13939px;">
+                    <div class="dot-label">Dec 31</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">00:00</span>Seoul Western District Court issues an arrest warrant for the president.
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 14031px;">
+                    <div class="dot-label">Jan 3, 2025</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">13:30</span>Corruption Investigation Office for High-ranking Officials (CIO) fails to apprehend the president.
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 14108px;">
+                    <div class="dot-label">Jan 14</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">10:00</span>First Constitutional Court impeachment hearing (president absent).
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 14195px;">
+                    <div class="dot-label">Jan 15</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">10:33</span>CIO enforces presidential arrest warrant.
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 14282px;">
+                    <div class="dot-label">Jan 19</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">02:50</span>Seoul Western District Court issues presidential detention warrant.
+                            <br>
+                        </div>
+                    </div>
+                </div
+                >
+                <div class="dot-wrapper" style="left: 14372px;">
+                    <div class="dot-label">Jan 26</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">18:55</span>Prosecutors indict the president for leading an insurrection.
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 14530px;">
+                    <div class="dot-label">Feb 25</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">14:00</span>Final (11th) impeachment trial session.
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 15648px;">
+                    <div class="dot-label">Mar 7</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">13:50</span>Seoul Central District Court cancels the detention warrant for the president.
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 15734px;">
+                    <div class="dot-label">Mar 8</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">17:40</span>President released from custody.
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 16808px;">
+                    <div class="dot-label">Mar 24</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">10:00</span>Constitutional Court dismisses impeachment of Acting President Han Duck-soo.
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 17314px;">
+                    <div class="dot-label">Apr 4</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">11:00</span>Final Constitutional Court verdict on presidential impeachment.
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="image-gallery">
+                <a href="#" onclick="showImagePage(0)">
+                    <img src="resources/1204_khu.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(1)">
+                    <img src="resources/1204_1korea.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(2)">
+                    <img src="resources/1204_1ku.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(3)">
+                    <img src="resources/1203_1k.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(4)">
+                    <img src="resources/1204_7sg.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(5)">
+                    <img src="resources/1204_7seoul.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(6)">
+                    <img src="resources/1204_7ss.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(7)">
+                    <img src="resources/1204_7skku.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(8)">
+                    <img src="resources/1204_8yonsei.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(9)">
+                    <img src="resources/1204_9yonsei2.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(10)">
+                    <img src="resources/1204_8ug.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(11)">
+                    <img src="resources/1204_8ihwa.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(12)">
+                    <img src="resources/1204_ihwa.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(13)">
+                    <img src="resources/1204_10jbu.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(14)">
+                    <img src="resources/1204_9jju.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(15)">
+                    <img src="resources/1205_1k .jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(16)">
+                    <img src="resources/1205_11catolic.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(17)">
+                    <img src="resources/1205_3ca.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(18)">
+                    <img src="resources/1205_1kunkook.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(19)">
+                    <img src="resources/1205_1gyeonggi.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(20)">
+                    <img src="resources/1205_1gyeonghee.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(21)">
+                    <img src="resources/1205_1khanbat.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(22)">
+                    <img src="resources/1205_3dgu.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(23)">
+                    <img src="resources/1205_7sg.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(24)">
+                    <img src="resources/1205_7seu.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(25)">
+                    <img src="resources/1205_7snu2.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(26)">
+                    <img src="resources/1205_7sju.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(27)">
+                    <img src="resources/1205_7smw.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(28)">
+                    <img src="resources/1205_7ssu.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(29)">
+                    <img src="resources/1205_8inha.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(30)">
+                    <img src="resources/1205_chu.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(31)">
+                    <img src="resources/1205_14hk.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(32)">
+                    <img src="resources/1205_hufs4.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(33)">
+                    <img src="resources/1205_hufs5.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(34)">
+                    <img src="resources/1205_hufs3.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(35)">
+                    <img src="resources/1205_hufs6.jpg" class="poster">
+                </a>
+
+                <a href="#" onclick="showImagePage(36)">
+                    <img src="resources/1206_0e.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(37)">
+                    <img src="resources/1206_1kangwon.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(38)">
+                    <img src="resources/1206_1gwangwun.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(39)">
+                    <img src="resources/1206_1gjw.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(40)">
+                    <img src="resources/1206_1gy.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(41)">
+                    <img src="resources/1206_1kookmin.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(42)">
+                    <img src="resources/1206_5mj.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(43)">
+                    <img src="resources/1206_7tech.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(44)">
+                    <img src="resources/1206_7swn.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(45)">
+                    <img src="resources/1206_7sw.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(46)">
+                    <img src="resources/1206_7skhu.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(47)">
+                    <img src="resources/1206_7ss.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(48)">
+                    <img src="resources/1206_9icu.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(49)">
+                    <img src="resources/1206_9jj.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(50)">
+                    <img src="resources/1206_14hl.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(51)">
+                    <img src="resources/1206_14hs2.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(52)">
+                    <img src="resources/1206_14hs.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(53)">
+                    <img src="resources/1206_14hia.jpg" class="poster">
+                </a>
+
+                <a href="#" onclick="showImagePage(54)">
+                    <img src="resources/1207_1gachonjpg.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(55)">
+                    <img src="resources/1207_1kku1.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(56)">
+                    <img src="resources/1207_1kku2.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(57)">
+                    <img src="resources/1207_1ge.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(58)">
+                    <img src="resources/1207_1k.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(59)">
+                    <img src="resources/1207_3ddw.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(60)">
+                    <img src="resources/1207_3dsw.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(61)">
+                    <img src="resources/1207_6bs.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(62)">
+                    <img src="resources/1207_7seoul.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(63)">
+                    <img src="resources/1207_skku.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(64)">
+                    <img src="resources/1207_9jj.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(65)">
+                    <img src="resources/1207_14hyuq.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(66)">
+                    <img src="resources/1207_14hyuq.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(67)">
+                    <img src="resources/1208_1gangseo.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(68)">
+                    <img src="resources/1208_10che.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(69)">
+                    <img src="resources/1208_14hufs.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(70)">
+                    <img src="resources/1208_14hubsm.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(71)">
+                    <img src="resources/1209_0all.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(72)">
+                    <img src="resources/1209_3dg.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(73)">
+                    <img src="resources/1209_7snu.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(74)">
+                    <img src="resources/1209_7sh1.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(75)">
+                    <img src="resources/1209_7sh2.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(76)">
+                    <img src="resources/1209_14hsu.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(77)">
+                    <img src="resources/1210_1gj.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(78)">
+                    <img src="resources/1210_7skhu.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(79)">
+                    <img src="resources/1212_0all.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(80)">
+                    <img src="resources/1213_16hl.jpg" class="poster">
+                </a>
+
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(81)">
+                    <img src="resources/1214_8ug.jpg" class="poster">
+                </a>
+
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(82)">
+                    <img src="resources/1216_8ihwa.jpg" class="poster">
+                </a>
+
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(83)">
+                    <img src="resources/1222_0eall.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(84)">
+                    <img src="resources/1224_7se.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <div class="blank"></div>
+                <div class="blank"></div>
+                <div class="blank"></div>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(85)">
+                    <img src="resources/0118_7skhu.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(86)">
+                    <img src="resources/0226_8ihwa.jpg" class="poster">
+                </a>
+
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(87)">
+                    <img src="resources/0226_8ihwa1.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(87)">
+                    <img src="resources/0226_8ihwa2.jpg" class="poster">
+                </a>
+                
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(89)">
+                    <img src="resources/0227_7sg.jpg" class="poster">
+                </a>
+
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(90)">
+                    <img src="resources/0228_8ihwa.jpg" class="poster">
+                </a>
+
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(91)">
+                    <img src="resources/0310_0all .jpg" class="poster">
+                </a>
+
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(92)">
+                    <img src="resources/0311_8ihwa.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(93)">
+                    <img src="resources/0319_7sw.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(94)">
+                    <img src="resources/0320_14kart.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(95)">
+                    <img src="resources/0324_0wo.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(96)">
+                    <img src="resources/0325_7shku.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(97)">
+                    <img src="resources/0404_0all.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(98)">
+                    <img src="resources/0404_1ku.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(99)">
+                    <img src="resources/0404_8ihwa.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(100)">
+                    <img src="resources/0404_10ch.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(101)">
+                    <img src="resources/0407_7sg.jpg" class="poster-last">
+                </a>
+            </div>
+        </div>
+    </div>
+</main>
+
+<div id="verdict-page" style="display: none;">
+    <nav class="top-nav-main">
+        <div class="nav-left" onclick="closeVerdict()">BACK</div>
+        <div class="nav-right">
+            <a href="index.html"><span class="link-text">KR</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="en.html"><span class="link-text">EN</span></a>
+        </div>
+    </nav>
+    <div class="verdict-text">Commencement of Judgment
+We hereby begin the ruling on Case No. 2024Hun-Na8, the impeachment trial of President Yoon Suk-yeol.
+▣ I. On the Requirements for Legal Admissibility
+Whether the Declaration of Martial Law in this Case Is Subject to Judicial Review
+In consideration of the purpose of impeachment proceedings—to safeguard the constitutional order from violations by high-ranking officials—the declaration of martial law in this case, even if it entails a high degree of political discretion, is subject to constitutional and legal review.
+
+
+On the Lack of Prior Review by the National Assembly’s Legislation and Judiciary Committee
+The Constitution delegates impeachment procedures to legislative discretion, and the National Assembly Act leaves such prior review to the Assembly's discretion. Thus, the absence of such review does not render the impeachment resolution procedurally defective.
+
+
+On Whether the Impeachment Resolution Violates the Principle of Non-Repetition within the Same Session
+The National Assembly Act prohibits re-submission of defeated bills within the same session. Although the first impeachment bill against the respondent failed in the 418th regular session, the current bill was submitted during the 419th extraordinary session. Therefore, it does not violate the principle of non-repetition. A concurring opinion by Justice Jeong Hyung-sik suggests the need for legislation limiting repeated submissions across different sessions.
+
+
+On Whether the Short Duration and Lack of Harm from the Martial Law Declaration Negates Legal Interest
+Although the martial law was quickly lifted and no harm occurred, the grounds for impeachment had already materialized. Therefore, the legal interest in adjudication is not negated.
+
+
+On the Recharacterization of Criminal Acts into Constitutional Violations after the Impeachment Petition
+Recharacterizing charges from violations of the Criminal Act (e.g., insurrection) to constitutional violations without changing the factual basis does not constitute a withdrawal or alteration of impeachment grounds. Such action is permissible without separate procedures. The respondent’s claim that the bill would not have passed without the insurrection charge is speculative and lacks evidentiary support.
+
+
+On the Alleged Abuse of Impeachment Power to Seize the Presidency
+Given the lawfulness of the impeachment procedure and the substantial evidentiary support for constitutional and legal violations, the impeachment cannot be deemed an abuse of power.
+
+
+Accordingly, the impeachment petition is deemed legally admissible.
+Regarding evidentiary rules, Justices Lee Mi-seon and Kim Hyung-du expressed a concurring opinion supporting the relaxation of hearsay rules in impeachment trials, while Justices Kim Bok-hyung and Cho Han-chang opined for stricter application of such rules in future proceedings.
+▣ II. On Whether the Respondent Violated the Constitution or Law in the Performance of Duties, and Whether Such Violation Warrants Removal
+1. On the Declaration of Martial Law
+○ According to the Constitution and Martial Law Act, substantive requirements for declaring martial law include a real and present national emergency akin to war or rebellion that severely disrupts social order and paralyzes administrative and judicial functions. The respondent claimed such a crisis existed due to the opposition party’s majority, unilateral legislative action, and repeated budget cut attempts. Since taking office, the respondent has faced 22 impeachment bills targeting high-ranking officials. However, at the time of the martial law declaration, only two impeachment trials were ongoing. Legislative measures claimed to be problematic had not taken effect due to presidential refusal or suspension. The 2025 budget had not been passed in plenary and thus had no immediate impact. Therefore, the National Assembly’s actions did not constitute a present and serious national crisis justifying martial law. Even if legislative acts were unlawful or improper, institutional mechanisms such as impeachment review and presidential veto were available and should have been pursued before invoking emergency powers. The respondent also cited election fraud suspicions, but mere allegations do not constitute a constitutional crisis. The National Election Commission had addressed cybersecurity concerns and ensured transparency through 24/7 surveillance and hand recount procedures.
+Hence, no objectively justifiable national emergency existed at the time of the martial law declaration.
+○ Procedurally, the declaration and appointment of the Martial Law Commander must undergo Cabinet deliberation. Though the respondent briefly explained the intent to the Prime Minister and nine ministers, he failed to present details or allow discussion. Furthermore, the Prime Minister and related ministers did not countersign the declaration; the start time, region, and commander were not publicly announced, nor was the National Assembly notified without delay. Thus, procedural requirements under the Constitution and Martial Law Act were violated.
+2. On the Deployment of Military and Police Forces to the National Assembly
+The respondent ordered the Minister of National Defense to deploy military forces to the Assembly. Troops entered the premises via helicopters and forcibly breached windows. The respondent instructed commanders to "break the doors and drag members out" if a quorum could not be reached. He contacted the National Police Chief directly and indirectly, leading to full lockdown of the Assembly. Some lawmakers had to scale walls or were denied entry. The Minister of Defense ordered surveillance of the Speaker and party leaders for potential arrest. The respondent also contacted the Deputy Director of the National Intelligence Service to assist in locating them. These actions obstructed the Assembly's constitutional authority, violated lawmakers’ deliberative and voting rights, their immunity from arrest, and infringed upon party activity and political freedom. By mobilizing the military against the Assembly for political ends, the respondent compromised military neutrality and violated the constitutional duty to command the armed forces.
+3. On the Emergency Decree (Proclamation)
+The decree banned activities of the National Assembly, local councils, and political parties, violating the Constitution’s guarantee of the Assembly’s power to lift martial law and the principles of representative democracy and separation of powers. It infringed on political freedoms, labor rights, and occupational freedom without proper constitutional or legal basis, violating the warrant principle.
+4. On the Raid of the National Election Commission
+The respondent ordered the Defense Minister to mobilize troops to inspect the NEC’s computer systems. The deployed forces restricted access, confiscated cellphones, and filmed computer systems—without a warrant. This violated the warrant requirement and undermined the NEC’s independence.
+5. On Surveillance of Former Judges
+The respondent was involved in attempts to locate former high-ranking judges, including a former Chief Justice and Justice of the Supreme Court. This exerted pressure on the judiciary and infringed on judicial independence.
+Assessment of the Gravity of Violations
+The respondent declared martial law to overcome political conflict, deployed military and police forces to obstruct the National Assembly, and undermined the constitutional order by targeting the NEC and issuing decrees that infringed on fundamental rights. These acts violated foundational principles of constitutionalism and democracy and inflicted serious harm on constitutional order.
+The swift lifting of martial law was due to civilian resistance and passive military response, not mitigating the severity of the respondent’s misconduct. Presidential powers derive from the Constitution. The respondent exercised emergency powers beyond constitutional limits, eroding trust in presidential authority.
+Though opposition-led impeachment efforts and legislative obstruction posed challenges, and though the respondent may have believed that national interests were at stake, these political conflicts must be resolved democratically. Neither side bears exclusive blame. The President should have respected the Assembly as a democratic counterpart.
+Nonetheless, the respondent viewed the Assembly as an adversary and bypassed constitutional remedies. He had the opportunity to win public support in the general election two years after taking office but instead attempted to override the electorate’s will.
+By abusing emergency powers, the respondent revived a dark chapter in Korean history, shocked the public, and caused political, economic, and diplomatic instability.
+As President of all citizens, the respondent failed in his duty to unify society beyond partisan lines. He infringed upon constitutional institutions and rights, betrayed public trust, and neglected his obligation to protect the Constitution.
+His actions constitute grave constitutional and legal violations that cannot be tolerated from the perspective of constitutional defense.
+Considering the severe negative impact on constitutional order, the benefit of removing the respondent far outweighs the potential national loss from his dismissal.
+Therefore, the Constitutional Court unanimously renders the following judgment:
+Order
+The respondent, President Yoon Suk-yeol, is hereby removed from office.
+It is now 11:22 AM. This concludes the ruling.
+
+</div>
+</div>
+
+
+<div id="about-page" style="display: none; text-align:left;">
+    <div class="about-text">
+At 10:30 p.m. on December 3rd, President Yoon Suk-yeol declared martial law. By 4 a.m. the next morning, it was lifted. That same morning, posters—commonly referred to as dae-jabo or jabo—were seen across university campuses.
+
+Posters are no longer a common means of communication among today’s younger generation. Back in the early to mid-1980s, when the media was under heavy censorship, posters were one of the few outlets through which student activists could voice their thoughts. But times have changed. With countless digital platforms available today, printing something out and physically posting it is an extra effort—especially when the message can be easily destroyed and silenced by someone tearing it down. For many reasons, posters have faded from campus life.
+
+And yet, starting from December 4th and continuing until spring arrived, students braved the cold to put up posters all over campus. Though each printed message told a different story, the act of printing and posting was, for all of them, an embodied form of writing. Loosely clinging tape, ink smudged by rain, handwritten signatures of solidarity and words of encouragement from fellow students—these physical elements gave each poster its own narrative.
+
+Subject to forces beyond them, whether personal power or the indifference of nature, these posters were born to be short-lived. And yet, here, we seek to extend their ephemerality. Even if it means going against the natural fate of a poster, even if we must press them flat to preserve them, we want to remember these posters.
+
+In a winter when the voices of young people echoed louder than ever, we gathered these posters in the hope that their texts and movement would not be blown away and forgotten in the cold wind, but would once again breathe in the scent of spring. What we are collecting are traces of speaking, printing, and posting that tell the story of our world.
+
+<a href="mailto:fromfourtoten@gmail.com" target="_blank"><span class="link-text">fromfourtoten@gmail.com</span></a>
+<a href="https://www.instagram.com/fromfourtoten?igsh=Y2VpY3MxbXY1c2lq" target="_blank"><span class="link-text">instagram</span></a>
+
+
+    </div>
+</div>
+
+<div id="image-page" style="display: none;">
+    <nav class="top-nav">
+        <div class="nav-left" onclick="goBackFromImage()">HOME</div>
+<div class="nav-right">
+    <a href="index.html"><span class="link-text">KR</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="en.html"><span class="link-text">EN</span></a>
+        </div>
+    </nav>
+    <nav class="left-nav">
+        <div id="prev-btn" class="prev-btn">❮</div>
+    </nav>
+    <nav class="right-nav">
+        <div id="next-btn" class="next-btn">❯</div>
+
+    </nav>
+    <div class="container">
+        <div class="left-side">
+            <img id="big-image" src="" alt="대자보 이미지">
+        </div>
+        <div class="right-side">
+            <h1 id="image-title"></h1>
+            <p id="image-desc"></p>
+        </div>
+    </div>
+</div>
+
+<script>
+    function showAboutPage() {
+    document.getElementById("primary").style.display = "none";
+    document.getElementById("about-page").style.display = "flex";
+}
+
+function goBackFromAbout() {
+    document.getElementById("about-page").style.display = "none";
+    document.getElementById("primary").style.display = "block";
+}
+
+function goBackFromImage() {
+    document.getElementById("image-page").style.display = "none";
+    document.getElementById("primary").style.display = "block";
+}
+
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+    const posters = document.querySelectorAll('.poster');
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                // observer.unobserve(entry.target); // 원하면 한 번만 실행
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
+
+    posters.forEach(poster => {
+        observer.observe(poster);
+    });
+});
+
+
+
+let currentIndex = 0;  // 현재 인덱스
+
+function showImagePage(index) {
+    currentIndex = index;  // 업데이트
+    document.getElementById("primary").style.display = "none";
+    document.getElementById("about-page").style.display = "none";
+    document.getElementById("image-page").style.display = "flex";
+
+    const image = images[index];
+    if (image) {
+        document.getElementById("big-image").src = image.src;
+        document.getElementById("image-title").textContent = image.title;
+        document.getElementById("image-desc").textContent = image.desc;
+    }
+}
+
+function showAboutPage() {
+    const container = document.querySelector('.horizontal-container');
+    const containerWidth = container.scrollWidth;
+    const viewportWidth = window.innerWidth;
+
+    // 가장 왼쪽 내용물이 중앙에 오도록 scrollLeft 이동
+    container.scrollLeft = 0;
+
+    // horizontal-container shift
+    container.classList.add('shifted');
+
+    // about-page 띄우기
+    document.getElementById('about-page').style.display = 'flex';
+
+    // nav 버튼 전환
+    document.querySelector('.nav-left').textContent = 'BACK';
+    document.querySelector('.nav-left').setAttribute('onclick', 'goBackFromAbout()');
+}
+
+function goBackFromAbout() {
+    const container = document.querySelector('.horizontal-container');
+
+    // horizontal-container shift 해제
+    container.classList.remove('shifted');
+
+    // about-page 숨기기
+    document.getElementById('about-page').style.display = 'none';
+
+    // nav 버튼 전환
+    document.querySelector('.nav-left').textContent = 'ABOUT';
+    document.querySelector('.nav-left').setAttribute('onclick', 'showAboutPage()');
+}
+
+let isAboutOpen = false;
+
+function toggleAboutPage() {
+    if (!isAboutOpen) {
+        showAboutPage();
+    } else {
+        goBackFromAbout();
+    }
+    isAboutOpen = !isAboutOpen;
+}
+
+
+// Prev 버튼
+document.querySelector('.prev-btn').addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    showImagePage(currentIndex);
+});
+
+// Next 버튼
+document.querySelector('.next-btn').addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % images.length;
+    showImagePage(currentIndex);
+});
+
+document.addEventListener('wheel', function(e) {
+    const primary = document.getElementById('primary');
+    const verdictPage = document.getElementById('verdict-page');
+
+    const isPrimaryVisible = primary && primary.style.display !== 'none';
+    const isVerdictVisible = verdictPage && verdictPage.style.display !== 'none';
+
+    if (isVerdictVisible) {
+        // verdict-page 열렸으면 기본 세로 스크롤 허용 (아무 간섭 안 함)
+        return;
+    }
+
+    if (isPrimaryVisible) {
+        // primary가 열렸을 때만 horizontal scroll 강제
+        e.preventDefault();
+        document.querySelector('.horizontal-container').scrollLeft += e.deltaY;
+    }
+    // else: 기본 브라우저 동작 (아무 간섭 안 함)
+}, { passive: false });
+
+
+const container = document.querySelector('.horizontal-container');
+const verdictPage = document.getElementById('verdict-page');
+
+container.addEventListener('scroll', () => {
+    const atEnd = Math.ceil(container.scrollLeft + container.clientWidth) >= container.scrollWidth;
+    if (atEnd) {
+        verdictPage.style.display = 'block';
+    }
+});
+
+function closeVerdict() {
+    verdictPage.style.display = 'none';
+}
+
+
+
+
+
+
+</script>
+<script src="image-data-en.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
