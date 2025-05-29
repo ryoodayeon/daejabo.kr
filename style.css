@@ -1,0 +1,462 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    font-family: 'Space Grotesk', 'NotoSansKR', sans-serif; /* 기본 한글 폰트 */
+    font-optical-sizing: auto;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f1f1f1;
+    scrollbar-width: thin;
+    scrollbar-color: white transparent;
+}
+:lang(en), 
+.numbers, 
+.english-only {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.space-grotesk-medium {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.space-grotesk-semibold {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.space-grotesk-bold {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+/*nav*/
+.top-nav-main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 40px;
+    background-color: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 900; 
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 40px;
+    background-color: #f1f1f1;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 900; 
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.left-nav, .right-nav {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 550; /* 최상단 */
+}
+.left-nav {
+    left: 10px; /* 왼쪽 끝에서 약간 띄우기 */
+}
+.right-nav {
+    right: 15px; /* 오른쪽 끝에서 약간 띄우기 */
+}
+
+.prev-btn, 
+.next-btn {
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 4px;
+    user-select: none;
+    color: black;
+}
+
+.nav-left,
+.nav-right {
+    user-select: none;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+.link-text {
+    opacity: 1;
+    color: #000;
+    text-decoration: none; /* 밑줄 없애기 */
+    font-style: normal;    /* 기본은 일반체 */
+    transition: font-style 0.3s ease, transform 0.3s ease; /* 스타일 & 기울기 전환 */
+}
+
+a {
+    text-decoration: none;
+}
+
+
+a:hover .link-text,
+a:focus .link-text {
+    font-style: italic;    /* 호버 시 이탤릭체 */
+    transform: skew(-5deg); /* 약간 기울이기 효과 (선택) */
+}
+
+
+
+
+
+.horizontal-container {
+    display: block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.horizontal-container.shifted {
+    transform: translateX(50vw);
+    transition: transform 0.5s ease;
+}
+
+
+.panel {/* 임의로 길게 */
+    height: calc(100vh - 5px);
+    min-width: 1000px;
+}
+
+/*timelind_bar*/
+.timeline-bar {
+    position: relative;
+    height: 40px;
+    z-index: 500;
+}
+
+.dot-wrapper {
+    position: absolute;
+    top: 60px;
+    text-align: center;
+}
+
+.dot-label {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 10px;
+    color: gray;
+    pointer-events: none;
+}
+
+.dot-wrapper:hover .dot-label {
+    color: black;
+}
+
+.hover-box {
+    display: none;
+    position: absolute;
+    left: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: max-content;
+    padding: 0px 0px;
+    z-index: 1000;
+    background-color: #f1f1f1;
+
+}
+
+.hover-text {
+    font-family: "Space Grotesk", sans-serif;
+    color: gray;
+    font-size: 12px;
+    white-space: nowrap;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.4;
+
+}
+
+.dot-wrapper:hover .hover-box {
+    display: block;
+}
+
+.time {
+    display: inline-block;
+    width: 30px; /* 시간 숫자 폭 고정 */
+    text-align: left;
+    margin-right: 5px; /* 숫자와 한글 사이 여백 */
+}
+.timex {
+    display: inline-block;
+    width: 65px; /* 시간 숫자 폭 고정 */
+    text-align: left;
+    margin-right: 5px; /* 숫자와 한글 사이 여백 */
+}
+.timexx {
+    display: inline-block;
+    width: 80px; /* 시간 숫자 폭 고정 */
+    text-align: left;
+    margin-right: 5px; /* 숫자와 한글 사이 여백 */
+}
+
+.desc {
+    flex: 1;
+}
+
+
+/*image*/
+.image-gallery {
+    width: fit-content;
+    position: relative;
+    height: 100%;
+    display: grid;
+    grid-auto-flow: column; 
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-template-rows: 310px 300px;  /* 2행을 고정 높이 비율로 나눔 */
+    gap: 3px;
+    padding-top: 70px;
+    padding-left: 120px;
+    align-items: start;
+    justify-items: start; 
+}
+
+
+
+.poster {
+    width: 240px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    transform: translateY(-10px) scale(1);
+    opacity: 0.5;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.poster-last {
+    width: 240px;
+    margin-right: 120px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    transform: translateY(-10px) scale(1);
+    opacity: 0.5;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+
+.poster.visible {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+}
+
+/*about*/
+
+body {
+    transition: transform 2s ease;
+    overflow-x: hidden;
+}
+
+#about-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    background-color: #ffffff;
+    z-index: 600;
+    display: none;
+    padding: 40px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-y: auto;
+}
+
+
+
+.about-active body {
+    transform: translateX(50vw);
+}
+
+.about-active #about-page {
+    display: block;
+}
+
+#about-button.back-mode::after {
+    content: "BACK";
+}
+
+.about-text {
+    white-space: pre-wrap;
+    top: 5px;
+    left: 5px;
+    font-family: 'Space Grotesk', 'NotoSansKR', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: left;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+/*image-page*/
+#image-page {
+    width: 100%;
+    height: 100vh;
+    flex-direction: row;
+    overflow: hidden; /* 전체에서 스크롤 없앰 */
+}
+
+#image-page .container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.left-side {
+    flex: 1;
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.left-side img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+
+.right-side {
+    flex: 1;
+    display: fixed;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: #f1f1f1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+#image-title, #image-desc {
+    width: 90%;               /* ✅ 좌우 여백은 이 안에서 */
+    max-width: 600px;
+    margin: 5% auto;        /* ✅ 가운데 정렬 + 위아래 여백 */
+    padding: 0;               /* ✅ padding 대신 margin 사용 */
+    box-sizing: border-box;
+    max-width: 600px;
+    line-height: 1.4;
+    white-space: pre-wrap;
+}
+
+#image-title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 5%;
+}
+
+#image-desc {
+    font-size: 16px;
+    padding-right: 5%;
+    font-weight: medium;
+    justify-content: center;
+}
+
+@media (max-width: 720px) {
+    #image-page .container {
+        flex-direction: column;
+    }
+
+    .left-side {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .left-side img {
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+    }
+
+    .right-side {
+        width: 100%;
+        height: auto;
+    }
+    #image-desc {
+        font-size: 16px;
+        line-height: 1.4;
+        max-width: 80vw;
+        justify-content: center;
+        white-space: pre-wrap; /* ✅ 줄바꿈 처리용 */
+    }
+}
+
+/* 전체 스크롤바 */
+::-webkit-scrollbar {
+    height: 8px;  /* 가로 스크롤용 */
+    width: 8px;   /* 세로 스크롤용 */
+    z-index: 0;
+}
+
+/* 스크롤바 트랙 */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;  /* 배경 */
+}
+
+/* 스크롤바 핸들 */
+::-webkit-scrollbar-thumb {
+    background: black;  /* 손잡이 */
+    border-radius: 0;   /* 네모나게 */
+}
+
+#verdict-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    z-index: 9999;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.verdict-text {
+    font-size: 16px;
+    font-weight: medium;
+    line-height: 1.4;
+    max-width: 750px;
+    margin: 0 auto;   /* 중앙 폭 정렬 */
+    text-align: left;
+    white-space: pre-wrap;
+}
