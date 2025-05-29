@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="style.css" />
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+    </style>
+</head>
+<body>
+
+<main id="primary" class="site-main">
+    <nav class="top-nav-main">
+        <div class="nav-left" id="about-button" onclick="toggleAboutPage()">ABOUT</div>
+        <div class="nav-right">
+            <a href="index.html"><span class="link-text">KR</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="en.html"><span class="link-text">EN</span></a>
+        </div>
+        
+    </nav>
+    <div class="horizontal-container">
+        <div class="panel">
+            <div class="timeline-bar">
+                <div class="dot-wrapper" style="left: 0px;">
+                    <div class="dot-label">2024. 12. 3.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">22:28</span>
+                            <span class="desc">윤 대통령, 비상계엄 선포</span>
+                            <br>
+                            <span class="time">22:30</span>
+                            <span class="desc">계엄군, 중앙선거관리위원회 과천 청사 진입</span>
+                            <br>
+                            <span class="time">23:23</span>
+                            <span class="desc">계엄사령부 포고령 발령</span>
+                            </div>
+                    </div>
+                </div>
+                <div class="dot-wrapper" style="left: 105px;">
+                    <div class="dot-label">2024. 12. 4.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">00:07</span>
+                            <span class="desc">계엄군 국회 진입</span>
+                            <br>
+                            <span class="time">01:03</span>
+                            <span class="desc">국회, 비상계엄 해제 요구 결의안 통과</span>
+                            <br>
+                            <span class="time">04:30</span>
+                            <span class="desc">대통령, 비상계엄 선포 해제</span>
+                            <br>
+                            <span class="time">04:32</span>
+                            <span class="desc">비상계엄 투입 병력 원부대 복귀</span>
+                            <br>
+                            <span class="time">14:40</span>
+                            <span class="desc">범야권, 대통령 탄핵소추안 1차 발의</span>
+                            </div>
+                    </div>
+                </div>
+                <div class="dot-wrapper" style="left: 2386px;">
+                    <div class="dot-label">2024. 12. 5.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">00:48</span> 본회의(418-16) 보고<br>
+                        </div>
+                    </div>
+                </div>
+                <div class="dot-wrapper" style="left: 7952px;">
+                    <div class="dot-label">2024. 12. 7.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">10:00</span>
+                            <span class="desc">대통령 계엄 후 첫 대국민 담화 "임기 포함 향후 정국 운영 당에 일임"</span>
+                            <br>
+                            <span class="time">21:26</span>
+                            <span class="desc">국회, 탄핵안 투표 참여 195명으로 탄핵소추안 1차 본회의(418-17) 투표불성립</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="dot-wrapper" style="left: 9978px;">
+                    <div class="dot-label">2024. 12. 8.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">00:48</span>
+                            <span class="desc">국회, 탄핵소추안 1차 기한 경과로 폐기</span>
+                            <br>
+                            <span class="time">07:52</span>
+                            <span class="desc">검찰, 김용현 전 국방부 장관 긴급체포</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="dot-wrapper" style="left: 10738px;">
+                    <div class="dot-label">2024. 12. 9.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">15:30</span>대통령 출국 금지<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 12254px;">
+                    <div class="dot-label">2024. 12. 12.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="timexx">오전(시간 불확실)</span>대통령 대국민 담화 "끝까지 싸우겠다"<br>
+                            <span class="timexx">오후(시간 불확실)</span>범야권, 대통령 탄핵소추안 2차 발의<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 12508px;">
+                    <div class="dot-label">2024. 12. 13.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">14:03</span>범야권, 대통령 탄핵소추안 2차 본회의(419-3) 보고<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 12760px;">
+                    <div class="dot-label">2024. 12. 14.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="timex">(시간 불확실)</span>국회, 탄핵소추안 2차 본회의(419-4) 원안가결, 재적 300 재석 300 찬성 204 반대 85 기권 3 무효 8<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 13760px;">
+                    <div class="dot-label">2024. 12. 26.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="timex">(시간 불확실)</span>한덕수 대통령 권한대행 국무총리 탄핵소추안 발의<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 13849px;">
+                    <div class="dot-label">2024. 12. 27.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">15:55</span>국회, 한덕수 대통령 권한대행 국무총리 탄핵소추안 가결<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 13939px;">
+                    <div class="dot-label">2024. 12. 31.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">00:00</span>서울서부지법, 대통령 체포영장 발부<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 14031px;">
+                    <div class="dot-label">2025. 1. 3.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">13:30</span>고위공직자범죄수사처, 대통령 체포 실패<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 14108px;">
+                    <div class="dot-label">2025. 1. 14.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">10:00</span>대통령 탄핵심판 1차 변론 (불출석)<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 14195px;">
+                    <div class="dot-label">2025. 1. 15.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">10:33</span>공수처, 대통령 체포영장 집행<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 14282px;">
+                    <div class="dot-label">2025. 1. 19.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">02:50</span>서부지법, 대통령 구속영장 발부<br>
+                        </div>
+                    </div>
+                </div
+                >
+                <div class="dot-wrapper" style="left: 14372px;">
+                    <div class="dot-label">2025. 1. 26.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">18:55</span>검찰, 대통령 내란 우두머리 혐의로 구속기소<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 14530px;">
+                    <div class="dot-label">2025. 2. 25.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">14:00</span>대통령, 탄핵심판 최종(11차) 변론<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 15648px;">
+                    <div class="dot-label">2025. 3. 7.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">13:50</span>서울중앙지법, 대통령 구속 취소<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 15734px;">
+                    <div class="dot-label">2025. 3. 8.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">17:40</span>대통령 석방<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 16808px;">
+                    <div class="dot-label">2025. 3. 24.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">10:00</span>헌재, 한덕수 국무총리 탄핵 기각<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dot-wrapper" style="left: 17314px;">
+                    <div class="dot-label">2025. 4. 4.</div>
+                    <div class="hover-box">
+                        <div class="hover-text">
+                            <span class="time">11:00</span>탄핵심판 최종 선고<br>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="image-gallery">
+                <a href="#" onclick="showImagePage(0)">
+                    <img src="resources/1204_khu.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(1)">
+                    <img src="resources/1204_1korea.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(2)">
+                    <img src="resources/1204_1ku.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(3)">
+                    <img src="resources/1203_1k.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(4)">
+                    <img src="resources/1204_7sg.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(5)">
+                    <img src="resources/1204_7seoul.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(6)">
+                    <img src="resources/1204_7ss.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(7)">
+                    <img src="resources/1204_7skku.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(8)">
+                    <img src="resources/1204_8yonsei.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(9)">
+                    <img src="resources/1204_9yonsei2.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(10)">
+                    <img src="resources/1204_8ug.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(11)">
+                    <img src="resources/1204_8ihwa.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(12)">
+                    <img src="resources/1204_ihwa.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(13)">
+                    <img src="resources/1204_10jbu.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(14)">
+                    <img src="resources/1204_9jju.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(15)">
+                    <img src="resources/1205_1k .jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(16)">
+                    <img src="resources/1205_11catolic.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(17)">
+                    <img src="resources/1205_3ca.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(18)">
+                    <img src="resources/1205_1kunkook.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(19)">
+                    <img src="resources/1205_1gyeonggi.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(20)">
+                    <img src="resources/1205_1gyeonghee.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(21)">
+                    <img src="resources/1205_1khanbat.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(22)">
+                    <img src="resources/1205_3dgu.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(23)">
+                    <img src="resources/1205_7sg.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(24)">
+                    <img src="resources/1205_7seu.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(25)">
+                    <img src="resources/1205_7snu2.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(26)">
+                    <img src="resources/1205_7sju.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(27)">
+                    <img src="resources/1205_7smw.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(28)">
+                    <img src="resources/1205_7ssu.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(29)">
+                    <img src="resources/1205_8inha.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(30)">
+                    <img src="resources/1205_chu.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(31)">
+                    <img src="resources/1205_14hk.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(32)">
+                    <img src="resources/1205_hufs4.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(33)">
+                    <img src="resources/1205_hufs5.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(34)">
+                    <img src="resources/1205_hufs3.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(35)">
+                    <img src="resources/1205_hufs6.jpg" class="poster">
+                </a>
+
+                <a href="#" onclick="showImagePage(36)">
+                    <img src="resources/1206_0e.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(37)">
+                    <img src="resources/1206_1kangwon.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(38)">
+                    <img src="resources/1206_1gwangwun.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(39)">
+                    <img src="resources/1206_1gjw.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(40)">
+                    <img src="resources/1206_1gy.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(41)">
+                    <img src="resources/1206_1kookmin.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(42)">
+                    <img src="resources/1206_5mj.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(43)">
+                    <img src="resources/1206_7tech.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(44)">
+                    <img src="resources/1206_7swn.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(45)">
+                    <img src="resources/1206_7sw.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(46)">
+                    <img src="resources/1206_7skhu.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(47)">
+                    <img src="resources/1206_7ss.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(48)">
+                    <img src="resources/1206_9icu.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(49)">
+                    <img src="resources/1206_9jj.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(50)">
+                    <img src="resources/1206_14hl.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(51)">
+                    <img src="resources/1206_14hs2.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(52)">
+                    <img src="resources/1206_14hs.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(53)">
+                    <img src="resources/1206_14hia.jpg" class="poster">
+                </a>
+
+                <a href="#" onclick="showImagePage(54)">
+                    <img src="resources/1207_1gachonjpg.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(55)">
+                    <img src="resources/1207_1kku1.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(56)">
+                    <img src="resources/1207_1kku2.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(57)">
+                    <img src="resources/1207_1ge.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(58)">
+                    <img src="resources/1207_1k.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(59)">
+                    <img src="resources/1207_3ddw.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(60)">
+                    <img src="resources/1207_3dsw.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(61)">
+                    <img src="resources/1207_6bs.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(62)">
+                    <img src="resources/1207_7seoul.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(63)">
+                    <img src="resources/1207_skku.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(64)">
+                    <img src="resources/1207_9jj.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(65)">
+                    <img src="resources/1207_14hyuq.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(66)">
+                    <img src="resources/1207_14hyuq.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(67)">
+                    <img src="resources/1208_1gangseo.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(68)">
+                    <img src="resources/1208_10che.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(69)">
+                    <img src="resources/1208_14hufs.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(70)">
+                    <img src="resources/1208_14hubsm.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(71)">
+                    <img src="resources/1209_0all.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(72)">
+                    <img src="resources/1209_3dg.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(73)">
+                    <img src="resources/1209_7snu.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(74)">
+                    <img src="resources/1209_7sh1.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(75)">
+                    <img src="resources/1209_7sh2.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(76)">
+                    <img src="resources/1209_14hsu.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(77)">
+                    <img src="resources/1210_1gj.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(78)">
+                    <img src="resources/1210_7skhu.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(79)">
+                    <img src="resources/1212_0all.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(80)">
+                    <img src="resources/1213_16hl.jpg" class="poster">
+                </a>
+
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(81)">
+                    <img src="resources/1214_8ug.jpg" class="poster">
+                </a>
+
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(82)">
+                    <img src="resources/1216_8ihwa.jpg" class="poster">
+                </a>
+
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(83)">
+                    <img src="resources/1222_0eall.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(84)">
+                    <img src="resources/1224_7se.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <div class="blank"></div>
+                <div class="blank"></div>
+                <div class="blank"></div>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(85)">
+                    <img src="resources/0118_7skhu.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(86)">
+                    <img src="resources/0226_8ihwa.jpg" class="poster">
+                </a>
+
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(87)">
+                    <img src="resources/0226_8ihwa1.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(87)">
+                    <img src="resources/0226_8ihwa2.jpg" class="poster">
+                </a>
+                
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(89)">
+                    <img src="resources/0227_7sg.jpg" class="poster">
+                </a>
+
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(90)">
+                    <img src="resources/0228_8ihwa.jpg" class="poster">
+                </a>
+
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(91)">
+                    <img src="resources/0310_0all .jpg" class="poster">
+                </a>
+
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(92)">
+                    <img src="resources/0311_8ihwa.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(93)">
+                    <img src="resources/0319_7sw.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(94)">
+                    <img src="resources/0320_14kart.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(95)">
+                    <img src="resources/0324_0wo.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(96)">
+                    <img src="resources/0325_7shku.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(97)">
+                    <img src="resources/0404_0all.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(98)">
+                    <img src="resources/0404_1ku.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(99)">
+                    <img src="resources/0404_8ihwa.jpg" class="poster">
+                </a>
+                <a href="#" onclick="showImagePage(100)">
+                    <img src="resources/0404_10ch.jpg" class="poster">
+                </a>
+                <div class="blank"></div>
+                <a href="#" onclick="showImagePage(101)">
+                    <img src="resources/0407_7sg.jpg" class="poster-last">
+                </a>
+            </div>
+        </div>
+    </div>
+</main>
+
+<div id="verdict-page" style="display: none;">
+    <nav class="top-nav-main">
+        <div class="nav-left" onclick="closeVerdict()">BACK</div>
+        <div class="nav-right">
+            <a href="index.html"><span class="link-text">KR</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="en.html"><span class="link-text">EN</span></a>
+        </div>
+    </nav>
+    <div class="verdict-text"> 지금부터 2024헌나8 대통령 윤석열 탄핵사건에 대한 선고를 시작하겠습니다. 
+▣ 먼저, 적법요건에 관하여 살펴보겠습니다.
+
+① 이 사건 계엄 선포가 사법심사의 대상이 되는지에 관하여 보겠습니다.
+고위공직자의 헌법 및 법률 위반으로부터 헌법질서를 수호하고자 하는 탄핵심판의 취지 등을 고려하면, 이 사건 계엄 선포가 고도의 정치적 결단을 요하는 행위라 하더라도 그 헌법 및 법률 위반 여부를 심사할 수 있습니다.
+
+② 국회 법사위의 조사 없이 이 사건 탄핵소추안을 의결한 점에 대하여 보겠습니다.
+헌법은 국회의 소추 절차를 입법에 맡기고 있고, 국회법은 법사위 조사 여부를 국회의 재량으로 규정하고 있습니다. 따라서 법사위의 조사가 없었다고 하여 탄핵소추 의결이 부적법하다고 볼 수 없습니다.
+
+③ 이 사건 탄핵소추안의 의결이 일사부재의 원칙에 위반되는지 여부에 대하여 보겠습니다.
+국회법은 부결된 안건을 같은 회기 중에 다시 발의할 수 없도록 규정하고 있습니다. 피청구인에 대한 1차 탄핵소추안이 제418회 정기회 회기에 투표 불성립되었지만, 이 사건 탄핵소추안은 제419회 임시회 회기 중에 발의되었으므로, 일사부재의 원칙에 위반되지 않습니다. 한편 이에 대해서는 다른 회기에도 탄핵소추안의 발의 횟수를 제한하는 입법이 필요하다는 재판관 정형식의 보충의견이 있습니다.
+
+④ 이 사건 계엄이 단시간 안에 해제되었고, 이로 인한 피해가 발생하지 않았으므로 보호이익이 흠결되었는지 여부에 대하여 보겠습니다.
+이 사건 계엄이 해제되었다고 하더라도 이 사건 계엄으로 인하여 이 사건 탄핵 사유는 이미 발생하였으므로 심판의 이익이 부정된다고 볼 수 없습니다.
+
+⑤ 소추의결서에서 내란죄 등 형법 위반 행위로 구성하였던 것을 탄핵심판청구 이후에 헌법 위반 행위로 포섭하여 주장한 점에 대하여 보겠습니다.
+기본적 사실관계는 동일하게 유지하면서 적용법조문을 철회·변경하는 것은 소추사유의 철회·변경에 해당하지 않으므로, 특별한 절차를 거치지 않더라도 허용됩니다. 피청구인은 소추사유에 내란죄 관련 부분이 없었다면 의결정족수를 충족하지 못하였을 것이라고도 주장하지만, 이는 가정적 주장에 불과하며 객관적으로 뒷받침할 근거도 없습니다.
+
+⑥ 대통령의 지위를 탈취하기 위하여 탄핵소추권을 남용하였다는 주장에 대하여 보겠습니다.
+이 사건 탄핵소추안의 의결 과정이 적법하고, 피소추자의 헌법 또는 법률 위반이 일정 수준 이상 소명되었으므로, 탄핵소추권이 남용되었다고 볼 수 없습니다.
+
+그렇다면 이 사건 탄핵심판청구는 적법합니다.
+
+한편 증거법칙과 관련하여, 탄핵심판절차에서 형사소송법상 전문법칙을 완화하여 적용할 수 있다는 재판관 이미선, 김형두의 보충의견과, 탄핵심판절차에서 앞으로는 전문법칙을 보다 엄격하게 적용할 필요가 있다는 재판관 김복형, 조한창의 보충의견이 있습니다. 
+
+▣ 다음으로 피청구인이 직무집행에 있어 헌법이나 법률을 위반하였는지, 피청구인의 법위반 행위가 피청구인을 파면할 만큼 중대한 것인지에 관하여 살펴보겠습니다.
+
+우선 소추사유별로 살펴보겠습니다.
+
+① 이 사건 계엄 선포에 관하여 보겠습니다.
+
+○ 헌법 및 계엄법에 따르면, 비상계엄 선포의 실체적 요건 중 하나는 ‘전시·사변 또는 이에 준하는 국가비상사태로 적과 교전 상태에 있거나 사회질서가 극도로 교란되어 행정 및 사법 기능의 수행이 현저히 곤란한 상황이 현실적으로 발생하여야 한다’는 것입니다. 피청구인은 야당이 다수의석을 차지한 국회의 이례적인 탄핵소추 추진, 일방적인 입법권 행사 및 예산 삭감 시도 등의 전횡으로 인하여 위와 같은 중대한 위기상황이 발생하였다고 주장합니다. 피청구인의 취임 후 이 사건 계엄 선포 전까지 국회는 행안부장관, 검사, 방통위 위원장, 감사원장 등에 대하여 총 22건의 탄핵소추안을 발의하였습니다. 이는 국회가 탄핵소추사유의 위헌·위법성에 대해 숙고하지 않은 채 법 위반의 의혹에만 근거하여 탄핵심판제도를 정부에 대한 정치적 압박수단으로 이용하였다는 우려를 낳았습니다. 그러나 이 사건 계엄 선포 당시에는 검사 1인 및 방통위 위원장에 대한 탄핵심판절차만이 진행 중이었습니다. 피청구인이 야당이 일방적으로 통과시켜 문제가 있다고 주장하는 법률안들은 피청구인이 재의를 요구하거나 공포를 보류하여 그 효력이 발생되지 않은 상태였습니다. 2025년도 예산안은 2024년 예산을 집행하고 있었던 이 사건 계엄 선포 당시 상황에 어떠한 영향을 미칠 수 없고, 위 예산안에 대하여 국회 예결특위의 의결이 있었을 뿐 본회의의 의결이 있었던 것도 아닙니다. 따라서 국회의 탄핵소추, 입법, 예산안 심의 등의 권한 행사가 이 사건 계엄 선포 당시 중대한 위기상황을 현실적으로 발생시켰다고 볼 수 없습니다.국회의 권한 행사가 위법·부당하더라도, 헌법재판소의 탄핵심판, 피청구인의 법률안 재의요구 등 평상시 권력행사방법으로 대처할 수 있으므로, 국가긴급권의 행사를 정당화할 수 없습니다. 피청구인은 부정선거 의혹을 해소하기 위하여 이 사건 계엄을 선포하였다고도 주장합니다. 그러나 어떠한 의혹이 있다는 것만으로 중대한 위기상황이 현실적으로 발생하였다고 볼 수는 없습니다. 또한 중앙선관위는 제22대 국회의원 선거 전에 보안 취약점에 대하여 대부분 조치하였다고 발표하였으며, 사전·우편 투표함 보관장소 CCTV영상을 24시간 공개하고 개표과정에 수검표 제도를 도입하는 등의 대책을 마련하였다는 점에서도 피청구인의 주장은 타당하다고 볼 수 없습니다. 결국 피청구인이 주장하는 사정을 모두 고려하더라도, 피청구인의 판단을 객관적으로 정당화할 수 있을 정도의 위기상황이 이 사건 계엄 선포 당시 존재하였다고 볼 수 없습니다. 헌법과 계엄법은 비상계엄 선포의 실체적 요건으로, ‘병력으로써 군사상의 필요에 응하거나 공공의 안녕질서를 유지할 필요와 목적이 있을 것’을 요구하고 있습니다. 그런데 피청구인이 주장하는 국회의 권한 행사로 인한 국정마비 상태나 부정선거 의혹은 정치적·제도적·사법적 수단을 통하여 해결하여야 할 문제이지 병력을 동원하여 해결할 수 있는 것이 아닙니다. 피청구인은 이 사건 계엄이 야당의 전횡과 국정 위기상황을 국민에게 알리기 위한 ‘경고성 계엄’ 또는 ‘호소형 계엄’이라고 주장하지만, 이는 계엄법이 정한 계엄 선포의 목적이 아닙니다. 또한 피청구인은 계엄 선포에 그치지 아니하고 군경을 동원하여 국회의 권한 행사를 방해하는 등의 헌법 및 법률 위반 행위로 나아갔으므로, 경고성 또는 호소형 계엄이라는 피청구인의 주장을 받아들일 수 없습니다.
+
+그렇다면 이 사건 계엄 선포는 비상계엄 선포의 실체적 요건을 위반한 것입니다.
+
+○ 다음으로, 이 사건 계엄 선포가 절차적 요건을 준수하였는지에 관하여 보겠습니다.
+계엄의 선포 및 계엄사령관의 임명은 국무회의의 심의를 거쳐야 합니다. 피청구인이 이 사건 계엄을 선포하기 직전에 국무총리 및 9명의 국무위원에게 계엄 선포의 취지를 간략히 설명한 사실은 인정됩니다. 그러나 피청구인은 계엄사령관 등 이 사건 계엄의 구체적인 내용을 설명하지 않았고 다른 구성원들에게 의견을 진술할 기회를 부여하지 않은 점 등을 고려하면 이 사건 계엄 선포에 관한 심의가 이루어졌다고 보기도 어렵습니다. 그 외에도, 피청구인은 국무총리와 관계 국무위원이 비상계엄 선포문에 부서하지 않았음에도 이 사건 계엄을 선포하였고, 그 시행일시, 시행지역 및 계엄사령관을 공고하지 않았으며, 지체 없이 국회에 통고하지도 않았으므로, 헌법 및 계엄법이 정한 비상계엄 선포의 절차적 요건을 위반하였습니다.
+
+
+② 국회에 대한 군경 투입에 관하여 보겠습니다.
+
+피청구인은 국방부장관에게 국회에 군대를 투입할 것을 지시하였습니다.이에 군인들은 헬기 등을 이용하여 국회 경내로 진입하였고, 일부는 유리창을 깨고 본관 내부로 들어가기도 하였습니다. 피청구인은 육군특수전사령관 등에게 ‘의결정족수가 채워지지 않은 것 같으니, 문을 부수고 들어가서 안에 있는 인원들을 끄집어내라’는 등의 지시를 하였습니다. 또한 피청구인은 경찰청장에게 계엄사령관을 통하여 이 사건 포고령의 내용을 알려주고, 직접 6차례 전화를 하기도 하였습니다. 이에 경찰청장은 국회 출입을 전면 차단하도록 하였습니다. 이로 인하여 국회로 모이고 있던 국회의원들 중 일부는 담장을 넘어가야 했거나 아예 들어가지 못하였습니다. 한편, 국방부장관은 필요시 체포할 목적으로 국군방첩사령관에게 국회의장, 각 정당 대표 등 14명의 위치를 확인하라고 지시하였습니다. 피청구인은 국가정보원 1차장에게 전화하여 국군방첩사령부를 지원하라고 하였고, 국군방첩사령관은 국가정보원 1차장에게 위 사람들에 대한 위치 확인을 요청하였습니다. 이와 같이 피청구인은 군경을 투입하여 국회의원의 국회 출입을 통제하는 한편 이들을 끌어내라고 지시함으로써 국회의 권한 행사를 방해하였으므로, 국회에 계엄해제요구권을 부여한 헌법 조항을 위반하였고, 국회의원의 심의·표결권, 불체포특권을 침해하였습니다. 또한 각 정당의 대표 등에 대한 위치 확인 시도에 관여함으로써 정당활동의 자유를 침해하였습니다. 피청구인은 국회의 권한 행사를 막는 등 정치적 목적으로 병력을 투입함으로써, 국가 안전보장과 국토방위를 사명으로 하여 나라를 위해 봉사하여 온 군인들이 일반 시민들과 대치하도록 만들었습니다. 이에 피청구인은 국군의 정치적 중립성을 침해하고 헌법에 따른 국군통수의무를 위반하였습니다.
+
+③ 이 사건 포고령 발령에 관하여 보겠습니다.
+
+피청구인은 이 사건 포고령을 통하여 국회, 지방의회, 정당의 활동을 금지함으로써 국회에 계엄해제요구권을 부여한 헌법 조항, 정당제도를 규정한 헌법 조항과 대의민주주의, 권력분립원칙 등을 위반하였습니다. 비상계엄하에서 기본권을 제한하기 위한 요건을 정한 헌법 및 계엄법 조항, 영장주의를 위반하여 국민의 정치적 기본권, 단체행동권, 직업의 자유 등을 침해하였습니다.
+
+④ 중앙선관위에 대한 압수·수색에 관하여 보겠습니다.
+
+피청구인은 국방부장관에게 병력을 동원하여 선관위의 전산시스템을 점검하라고 지시하였습니다. 이에 따라 중앙선관위 청사에 투입된 병력은 출입통제를 하면서 당직자들의 휴대전화를 압수하고 전산시스템을 촬영하였습니다. 이는 선관위에 대하여 영장 없이 압수·수색을 하도록 하여 영장주의를 위반한 것이자 선관위의 독립성을 침해한 것입니다.
+
+⑤ 법조인에 대한 위치 확인 시도에 관하여 보겠습니다.
+
+앞서 말씀드린 바와 같이, 피청구인은 필요시 체포할 목적으로 행해진 위치 확인 시도에 관여하였는데, 그 대상에는 퇴임한 지 얼마 되지 않은 전 대법원장 및 전 대법관도 포함되어 있었습니다. 이는 현직 법관들로 하여금 언제든지 행정부에 의한 체포 대상이 될 수 있다는 압력을 받게 하므로, 사법권의 독립을 침해한 것입니다. 
+
+지금까지 살펴본 피청구인의 법위반 행위가 피청구인을 파면할 만큼 중대한 것인지에 관하여 보겠습니다. 
+
+피청구인은 국회와의 대립 상황을 타개할 목적으로 이 사건 계엄을 선포한 후 군경을 투입시켜 국회의 헌법상 권한 행사를 방해함으로써 국민주권주의 및 민주주의를 부정하고, 병력을 투입시켜 중앙선관위를 압수·수색하도록 하는 등 헌법이 정한 통치구조를 무시하였으며, 이 사건 포고령을 발령함으로써 국민의 기본권을 광범위하게 침해하였습니다. 이러한 행위는 법치국가원리와 민주국가원리의 기본원칙들을 위반한 것으로서 그 자체로 헌법질서를 침해하고 민주공화정의 안정성에 심각한 위해를 끼쳤습니다. 
+
+한편 국회가 신속하게 비상계엄해제요구 결의를 할 수 있었던 것은 시민들의 저항과 군경의 소극적인 임무 수행 덕분이었으므로, 이는 피청구인의 법 위반에 대한 중대성 판단에 영향을 미치지 않습니다. 대통령의 권한은 어디까지나 헌법에 의하여 부여받은 것입니다. 피청구인은 가장 신중히 행사되어야 할 권한인 국가긴급권을 헌법에서 정한 한계를 벗어나 행사하여 대통령으로서의 권한 행사에 대한 불신을 초래하였습니다. 
+
+피청구인이 취임한 이래 야당이 주도하고 이례적으로 많은 탄핵소추로 인하여 여러 고위공직자의 권한행사가 탄핵심판 중 정지되었습니다. 2025년도 예산안에 관하여 헌정 사상 최초로 국회 예산결산특별위원회에서 증액 없이 감액에 대해서만 야당 단독으로 의결하였습니다. 피청구인이 수립한 주요 정책들은 야당의 반대로 시행될 수 없었고, 야당은 정부가 반대하는 법률안들을 일방적으로 통과시켜 피청구인의 재의 요구와 국회의 법률안 의결이 반복되기도 하였습니다. 그 과정에서 피청구인은 야당의 전횡으로 국정이 마비되고 국익이 현저히 저해되어 가고 있다고 인식하여 이를 어떻게든 타개하여야만 한다는 막중한 책임감을 느끼게 되었을 것으로 보입니다. 피청구인이 국회의 권한 행사가 권력 남용이라거나 국정마비를 초래하는 행위라고 판단한 것은 정치적으로 존중되어야 합니다. 그러나 피청구인과 국회 사이에 발생한 대립은 일방의 책임에 속한다고 보기 어렵고, 이는 민주주의 원리에 따라 해소되어야 할 정치의 문제입니다. 이에 관한 정치적 견해의 표명이나 공적 의사결정은 헌법상 보장되는 민주주의와 조화될 수 있는 범위에서 이루어져야 합니다. 국회는 소수의견을 존중하고 정부와의 관계에서 관용과 자제를 전제로 대화와 타협을 통하여 결론을 도출하도록 노력하였어야 합니다. 피청구인 역시 국민의 대표인 국회를 협치의 대상으로 존중하였어야 합니다. 
+
+그럼에도 불구하고 피청구인은 국회를 배제의 대상으로 삼았는데 이는 민주정치의 전제를 허무는 것으로 민주주의와 조화된다고 보기 어렵습니다. 피청구인은 국회의 권한 행사가 다수의 횡포라고 판단했더라도 헌법이 예정한 자구책을 통해 견제와 균형이 실현될 수 있도록 하였어야 합니다. 피청구인은 취임한 때로부터 약 2년 후에 치러진 국회의원선거에서 피청구인이 국정을 주도하도록 국민을 설득할 기회가 있었습니다. 그 결과가 피청구인의 의도에 부합하지 않더라도 야당을 지지한 국민의 의사를 배제하려는 시도를 하여서는 안 되었습니다.
+
+그럼에도 불구하고 피청구인은 헌법과 법률을 위반하여 이 사건 계엄을 선포함으로써 국가긴급권 남용의 역사를 재현하여 국민을 충격에 빠트리고, 사회·경제·정치·외교 전 분야에 혼란을 야기하였습니다.
+
+국민 모두의 대통령으로서 자신을 지지하는 국민을 초월하여 사회공동체를 통합시켜야 할 책무를 위반하였습니다.
+
+군경을 동원하여 국회 등 헌법기관의 권한을 훼손하고 국민의 기본적 인권을 침해함으로써 헌법수호의 책무를 저버리고 민주공화국의 주권자인 대한국민의 신임을 중대하게 배반하였습니다.
+
+결국 피청구인의 위헌·위법행위는 국민의 신임을 배반한 것으로 헌법수호의 관점에서 용납될 수 없는 중대한 법 위반행위에 해당합니다.
+
+피청구인의 법 위반행위가 헌법질서에 미친 부정적 영향과 파급효과가 중대하므로, 피청구인을 파면함으로써 얻는 헌법 수호의 이익이 대통령 파면에 따르는 국가적 손실을 압도할 정도로 크다고 인정됩니다.
+
+이에 재판관 전원의 일치된 의견으로 주문을 선고합니다.
+
+탄핵 사건이므로 선고시각을 확인하겠습니다. 지금 시각은 오전 11시 22분입니다.
+주문 피청구인 대통령 윤석열을 파면한다.
+
+이것으로 선고를 마칩니다.
+</div>
+</div>
+
+
+<div id="about-page" style="display: none; text-align:left;">
+    <div class="about-text">
+12월 3일 밤 10시 30분, 윤석열이 비상계엄을 선포하고, 다음 날 새벽 4시 이를 해제했다. 그날 아침 캠퍼스 이곳저곳에는 벽보, 일명 ‘대자보’ 혹은 ‘자보’가 붙어있었다.
+
+벽보는 요즈음의 청년 세대가 흔히 사용하는 소통 수단은 아니다. 언론이 탄압되었던 80년대 초중반, 벽보는 학생 운동가들이 목소리를 낼 수 있는 몇 안 되는 매체였지만, 지금은 그렇지 않다. 온라인의 다양한 지면에서 목소리를 낼 수 있기에, 무언가를 인쇄하여서 붙인다는 행위는 하나의 수고를 더하기에, 누군가가 벽보를 훼손하면 글 자체가 전달될 수 없기에, 다양한 이유로 벽보는 사라져갔다.
+
+하지만 4일부터 지금까지, 대학생들은 추운 날씨를 뚫고 봄이 올 때까지 캠퍼스 곳곳에 벽보를 붙였다. 다채로운 인쇄물들이 전하는 이야기는 각기 다르지만, 이를 인쇄하고 붙이는 이들은 몸의 행위로서의 글쓰기를 수행했다. 어물쩍 울고 있는 테이프, 비에 맞아 번진 잉크, 동료 학생들의 수기로된 연서명과 응원의 메시지. 물성을 입은 벽보는 그 자체로 하나의 서사를 가진다. 
+
+개인의 권력 혹은 자연의 무자비함 등 외부의 힘에 의해서 찢기고 훼손되는 벽보는 시한부의 삶을 타고난다. 이것 또한 벽보의 특성이겠건만, 우리는 이곳에서 이 임시성을 연장시키고자 한다. 벽보의 운명을 거스르면서까지, 감히 벽보를 납작히 만들어서라도, 우리의 이 벽보들을 기억하고자 한다. 
+
+유독 젊은 이들의 목소리가 크게 들려온 지난 겨울, 텍스트로 남은 이들의 운동이 차가운 겨울 바람에 떨어져 나가 사라지지 않기를 바라며, 다시 온 봄 내음을 가득 맡기를 바라며 우리는 벽보를 모았다. 우리가 모으는 것은 세상을 이야기하고, 인쇄하고, 붙인 우리의 흔적이다.        
+
+<a href="mailto:fromfourtoten@gmail.com" target="_blank"><span class="link-text">fromfourtoten@gmail.com</span></a>
+<a href="https://www.instagram.com/fromfourtoten?igsh=Y2VpY3MxbXY1c2lq" target="_blank"><span class="link-text">instagram</span></a>
+
+
+    </div>
+</div>
+
+<div id="image-page" style="display: none;">
+    <nav class="top-nav">
+        <div class="nav-left" onclick="goBackFromImage()">HOME</div>
+<div class="nav-right">
+    <a href="index.html"><span class="link-text">KR</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="en.html"><span class="link-text">EN</span></a>
+        </div>
+    </nav>
+    <nav class="left-nav">
+        <div id="prev-btn" class="prev-btn">❮</div>
+    </nav>
+    <nav class="right-nav">
+        <div id="next-btn" class="next-btn">❯</div>
+
+    </nav>
+    <div class="container">
+        <div class="left-side">
+            <img id="big-image" src="" alt="대자보 이미지">
+        </div>
+        <div class="right-side">
+            <h1 id="image-title"></h1>
+            <p id="image-desc"></p>
+        </div>
+    </div>
+</div>
+
+<script>
+    function showAboutPage() {
+    document.getElementById("primary").style.display = "none";
+    document.getElementById("about-page").style.display = "flex";
+}
+
+function goBackFromAbout() {
+    document.getElementById("about-page").style.display = "none";
+    document.getElementById("primary").style.display = "block";
+}
+
+function goBackFromImage() {
+    document.getElementById("image-page").style.display = "none";
+    document.getElementById("primary").style.display = "block";
+}
+
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+    const posters = document.querySelectorAll('.poster');
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                // observer.unobserve(entry.target); // 원하면 한 번만 실행
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
+
+    posters.forEach(poster => {
+        observer.observe(poster);
+    });
+});
+
+
+
+let currentIndex = 0;  // 현재 인덱스
+
+function showImagePage(index) {
+    currentIndex = index;  // 업데이트
+    document.getElementById("primary").style.display = "none";
+    document.getElementById("about-page").style.display = "none";
+    document.getElementById("image-page").style.display = "flex";
+
+    const image = images[index];
+    if (image) {
+        document.getElementById("big-image").src = image.src;
+        document.getElementById("image-title").textContent = image.title;
+        document.getElementById("image-desc").textContent = image.desc;
+    }
+}
+
+function showAboutPage() {
+    const container = document.querySelector('.horizontal-container');
+    const containerWidth = container.scrollWidth;
+    const viewportWidth = window.innerWidth;
+
+    // 가장 왼쪽 내용물이 중앙에 오도록 scrollLeft 이동
+    container.scrollLeft = 0;
+
+    // horizontal-container shift
+    container.classList.add('shifted');
+
+    // about-page 띄우기
+    document.getElementById('about-page').style.display = 'flex';
+
+    // nav 버튼 전환
+    document.querySelector('.nav-left').textContent = 'BACK';
+    document.querySelector('.nav-left').setAttribute('onclick', 'goBackFromAbout()');
+}
+
+function goBackFromAbout() {
+    const container = document.querySelector('.horizontal-container');
+
+    // horizontal-container shift 해제
+    container.classList.remove('shifted');
+
+    // about-page 숨기기
+    document.getElementById('about-page').style.display = 'none';
+
+    // nav 버튼 전환
+    document.querySelector('.nav-left').textContent = 'ABOUT';
+    document.querySelector('.nav-left').setAttribute('onclick', 'showAboutPage()');
+}
+
+let isAboutOpen = false;
+
+function toggleAboutPage() {
+    if (!isAboutOpen) {
+        showAboutPage();
+    } else {
+        goBackFromAbout();
+    }
+    isAboutOpen = !isAboutOpen;
+}
+
+
+// Prev 버튼
+document.querySelector('.prev-btn').addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    showImagePage(currentIndex);
+});
+
+// Next 버튼
+document.querySelector('.next-btn').addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % images.length;
+    showImagePage(currentIndex);
+});
+
+document.addEventListener('wheel', function(e) {
+    const primary = document.getElementById('primary');
+    const verdictPage = document.getElementById('verdict-page');
+
+    const isPrimaryVisible = primary && primary.style.display !== 'none';
+    const isVerdictVisible = verdictPage && verdictPage.style.display !== 'none';
+
+    if (isVerdictVisible) {
+        // verdict-page 열렸으면 기본 세로 스크롤 허용 (아무 간섭 안 함)
+        return;
+    }
+
+    if (isPrimaryVisible) {
+        // primary가 열렸을 때만 horizontal scroll 강제
+        e.preventDefault();
+        document.querySelector('.horizontal-container').scrollLeft += e.deltaY;
+    }
+    // else: 기본 브라우저 동작 (아무 간섭 안 함)
+}, { passive: false });
+
+
+const container = document.querySelector('.horizontal-container');
+const verdictPage = document.getElementById('verdict-page');
+
+container.addEventListener('scroll', () => {
+    const atEnd = Math.ceil(container.scrollLeft + container.clientWidth) >= container.scrollWidth;
+    if (atEnd) {
+        verdictPage.style.display = 'block';
+    }
+});
+
+function closeVerdict() {
+    verdictPage.style.display = 'none';
+}
+
+
+
+
+
+
+</script>
+<script src="image-data.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
