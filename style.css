@@ -131,10 +131,12 @@ a:focus .link-text {
 
 
 .horizontal-container {
-    display: block;
-    overflow-x: scroll;
+    display: flex;           /* ✅ block → flex로 변경 */
+    flex-wrap: nowrap;       /* ✅ 한 줄로 밀리게 */
+    overflow-x: auto;        /* ✅ 가로 스크롤 가능 */
     overflow-y: hidden;
 }
+
 
 .horizontal-container.shifted {
     transform: translateX(50vw);
@@ -277,22 +279,25 @@ body {
     overflow-x: hidden;
 }
 
+
 #about-page {
-    position: fixed;
+    position: relative; /* fixed → relative */
+    display: flex;
     top: 0;
     left: 0;
-    width: 50vw;
+    flex-direction: column;
+    width: auto;           /* ✅ 고정 너비 제거 */
+    min-width: 50vw;       /* ✅ 최소 너비 50vw */
+    max-width: none;       /* ✅ 최대 너비 제한 해제 */
     height: 100vh;
     background-color: #ffffff;
     z-index: 600;
-    display: none;
     padding: 40px;
     box-sizing: border-box;
-    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    overflow-y: auto;
 }
+
 
 
 
