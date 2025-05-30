@@ -60,6 +60,23 @@ body {
     font-weight: 500;
     font-size: 18px;
 }
+
+.top-nav-verdict {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 40px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 900; 
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
 .top-nav {
     position: fixed;
     top: 0;
@@ -131,12 +148,10 @@ a:focus .link-text {
 
 
 .horizontal-container {
-    display: flex;           /* ✅ block → flex로 변경 */
-    flex-wrap: nowrap;       /* ✅ 한 줄로 밀리게 */
-    overflow-x: auto;        /* ✅ 가로 스크롤 가능 */
+    display: block;
+    overflow-x: scroll;
     overflow-y: hidden;
 }
-
 
 .horizontal-container.shifted {
     transform: translateX(50vw);
@@ -272,6 +287,21 @@ a:focus .link-text {
     opacity: 1;
 }
 
+@media (max-width: 720px) {
+    .image-gallery {
+        grid-auto-flow: row;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+    }
+    .poster, .poster-last {
+        width: 90vw; /* 모바일 화면에 맞게 */
+        max-width: 300px; /* 너무 커지지 않게 */
+        height: auto;
+    }
+}
+
+
 /*about*/
 
 body {
@@ -279,25 +309,22 @@ body {
     overflow-x: hidden;
 }
 
-
 #about-page {
-    position: relative; /* fixed → relative */
-    display: flex;
+    position: fixed;
     top: 0;
     left: 0;
-    flex-direction: column;
-    width: auto;           /* ✅ 고정 너비 제거 */
-    min-width: 50vw;       /* ✅ 최소 너비 50vw */
-    max-width: none;       /* ✅ 최대 너비 제한 해제 */
+    width: 75vw;
     height: 100vh;
     background-color: #ffffff;
     z-index: 600;
+    display: none;
     padding: 40px;
     box-sizing: border-box;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    overflow-y: auto;
 }
-
 
 
 
@@ -395,11 +422,12 @@ body {
 @media (max-width: 720px) {
     #image-page .container {
         flex-direction: column;
+        overflow-y: auto; /* ✅ 추가: container 전체 스크롤 가능 */
     }
 
     .left-side {
         width: 100%;
-        height: 50vh;
+        height: auto; /* ✅ 50vh 대신 내용에 맞게 */
     }
 
     .left-side img {
@@ -411,15 +439,19 @@ body {
     .right-side {
         width: 100%;
         height: auto;
+        overflow: visible; /* ✅ 추가: right-side만 따로 스크롤 막음 */
     }
+
     #image-desc {
         font-size: 16px;
         line-height: 1.4;
         max-width: 80vw;
         justify-content: center;
-        white-space: pre-wrap; /* ✅ 줄바꿈 처리용 */
+        white-space: pre-wrap; 
     }
 }
+
+
 
 /* 전체 스크롤바 */
 ::-webkit-scrollbar {

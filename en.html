@@ -889,6 +889,24 @@ function closeVerdict() {
     verdictPage.style.display = 'none';
 }
 
+if (window.innerWidth <= 720) {  // 모바일일 때만
+    const dotWrappers = document.querySelectorAll('.dot-wrapper');
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            const hoverBox = entry.target.querySelector('.hover-box');
+            if (entry.isIntersecting) {
+                hoverBox.style.display = 'block';
+            } else {
+                hoverBox.style.display = 'none';
+            }
+        });
+    }, {
+        root: document.querySelector('.horizontal-container'),
+        threshold: 0.5  // 화면의 50% 이상 들어오면 활성화
+    });
+
+    dotWrappers.forEach(dot => observer.observe(dot));
+}
 
 
 
