@@ -154,8 +154,8 @@ a:focus .link-text {
 }
 
 .horizontal-container.shifted {
-    transform: translateX(75vw);
-    transition: transform 0.5s ease;
+    transform: translateX(50vw);
+    transition: transform 2s ease;
 }
 
 
@@ -336,7 +336,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 75vw;
+    width: 50vw;
     height: 100vh;
     background-color: #ffffff;
     z-index: 600;
@@ -384,6 +384,15 @@ body {
     text-align: left;
     max-width: 600px;
     box-sizing: border-box;
+}
+
+@media (max-width: 1439px) {
+    #about-page {
+        width: 75vw;
+    }
+    .horizontal-container.shifted {
+        transform: translateX(75vw);
+    }
 }
 
 /*image-page*/
