@@ -241,6 +241,12 @@ a:focus .link-text {
     flex: 1;
 }
 
+.nav-left.back-mode {
+    background-color: white;
+    padding: 2px; /* 양옆 조금 여유 */
+}
+
+
 @media (max-width: 720px) {
     .dot-wrapper {
         position: absolute;
@@ -257,9 +263,6 @@ a:focus .link-text {
         z-index: 1000;
         background-color: #f1f1f1;
     
-    }
-    .dot-wrapper {
-        position: relative;
     }
     
 } 
@@ -312,15 +315,15 @@ a:focus .link-text {
 @media (max-width: 720px) {
     .image-gallery {
         grid-auto-flow: column;
-        grid-template-columns: repeat(auto-fill, 100px);
-        grid-template-rows: 160px 150px;
+        grid-template-columns: repeat(auto-fill, 200px);
+        grid-template-rows: 210px 200px;
         gap: 2px;
         justify-items: start;
         padding-top: 100px;
     }
     .poster, .poster-last {
         width: 90vw; /* 모바일 화면에 맞게 */
-        max-width: 200px; /* 너무 커지지 않게 */
+        max-width: 180px; /* 너무 커지지 않게 */
         height: auto;
     }
 } 
@@ -375,7 +378,7 @@ body {
 
 .about-text {
     white-space: pre-wrap;
-    top: 5px;
+    top: 10px;
     left: 5px;
     font-family: 'Space Grotesk', 'NotoSansKR', sans-serif;
     font-weight: 500;
@@ -386,7 +389,7 @@ body {
     box-sizing: border-box;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1440px) {
     #about-page {
         width: 75vw;
     }
