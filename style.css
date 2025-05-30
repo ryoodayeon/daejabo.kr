@@ -241,6 +241,28 @@ a:focus .link-text {
     flex: 1;
 }
 
+@media (max-width: 720px) {
+    .dot-wrapper {
+        position: absolute;
+        top: 30px;
+        text-align: center;
+    }
+    .hover-box {
+        display: none;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: max-content;
+        padding: 0px 0px;
+        z-index: 1000;
+        background-color: #f1f1f1;
+    
+    }
+    .dot-wrapper {
+        position: relative;
+    }
+    
+} 
 
 /*image*/
 .image-gallery {
@@ -289,18 +311,19 @@ a:focus .link-text {
 
 @media (max-width: 720px) {
     .image-gallery {
-        grid-auto-flow: row;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        justify-items: center;
+        grid-auto-flow: column;
+        grid-template-columns: repeat(auto-fill, 100px);
+        grid-template-rows: 160px 150px;
+        gap: 2px;
+        justify-items: start;
+        padding-top: 100px;
     }
     .poster, .poster-last {
         width: 90vw; /* 모바일 화면에 맞게 */
-        max-width: 300px; /* 너무 커지지 않게 */
+        max-width: 200px; /* 너무 커지지 않게 */
         height: auto;
     }
-}
-
+} 
 
 /*about*/
 
@@ -324,12 +347,21 @@ body {
     justify-content: center;
     align-items: flex-start;
     overflow-y: auto;
+    overflow-x: hidden;
+
+    -ms-overflow-style: none;  /* IE, Edge */
+    scrollbar-width: none;     /* Firefox */
 }
 
-
+#about-page::-webkit-scrollbar {
+    display: none;  /* ✅ 크롬, 사파리에서 스크롤바 안 보이게 */
+}
 
 .about-active body {
     transform: translateX(50vw);
+    overflow-x: hidden;
+    position: fixed; /* 페이지 자체가 흔들리지 않게 */
+    width: 100%;
 }
 
 .about-active #about-page {
@@ -339,6 +371,7 @@ body {
 #about-button.back-mode::after {
     content: "BACK";
 }
+
 
 .about-text {
     white-space: pre-wrap;
