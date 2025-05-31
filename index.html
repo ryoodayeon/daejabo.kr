@@ -805,10 +805,10 @@ function showImagePage(index) {
 }
 
 if (window.innerWidth <= 720) {
-    setTimeout(() => {
-        window.scrollTo(0, 0);
-    }, 0);
+    document.getElementById("image-page").offsetHeight;  // 강제 reflow
+    window.scrollTo(0, 0);
 }
+
 
 
 

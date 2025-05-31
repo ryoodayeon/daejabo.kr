@@ -251,8 +251,8 @@ a:focus .link-text {
     .hover-box {
         display: none;
         position: absolute;
-        left: 0px;
-        top: 80px;
+        left: 5px;
+        top: 20px;
         width: max-content;
         padding: 0px 0px;
         z-index: 1000;
@@ -312,10 +312,10 @@ a:focus .link-text {
     .image-gallery {
         grid-auto-flow: column;
         grid-template-columns: repeat(auto-fill, 200px);
-        grid-template-rows: 260px 250px;
+        grid-template-rows: 240px 250px;
         gap: 1px;
         justify-items: start;
-        padding-top: 100px;
+        padding-top: 120px;
     }
     .poster, .poster-last {
         width: 90vw; /* 모바일 화면에 맞게 */
