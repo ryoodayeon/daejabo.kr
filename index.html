@@ -7,7 +7,7 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
     </style>
-<link rel="icon" href="favicon1.png?v=2" type="image/png">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
 
@@ -805,8 +805,12 @@ function showImagePage(index) {
 }
 
 if (window.innerWidth <= 720) {
-    window.scrollTo({ top: 0, behavior: 'auto' });
+    setTimeout(() => {
+        window.scrollTo(0, 0);
+    }, 0);
 }
+
+
 
 
 function showAboutPage() {
