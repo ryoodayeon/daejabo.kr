@@ -241,23 +241,18 @@ a:focus .link-text {
     flex: 1;
 }
 
-.nav-left.back-mode {
-    background-color: white;
-    padding: 2px; /* 양옆 조금 여유 */
-}
-
 
 @media (max-width: 720px) {
     .dot-wrapper {
         position: absolute;
-        top: 30px;
+        top: 40px;
         text-align: center;
     }
     .hover-box {
         display: none;
         position: absolute;
         left: 0px;
-        top: 0px;
+        top: 50%;
         width: max-content;
         padding: 0px 0px;
         z-index: 1000;
@@ -316,7 +311,7 @@ a:focus .link-text {
     .image-gallery {
         grid-auto-flow: column;
         grid-template-columns: repeat(auto-fill, 200px);
-        grid-template-rows: 210px 200px;
+        grid-template-rows: 260px 250px;
         gap: 2px;
         justify-items: start;
         padding-top: 100px;
