@@ -796,12 +796,26 @@ function showImagePage(index) {
         document.getElementById("image-title").textContent = image.title;
         document.getElementById("image-desc").textContent = image.desc;
     }
+    if (window.innerWidth <= 720) {
+        // ✅ 세로 스크롤 열기
+        document.body.style.overflowY = 'auto';
+
+        // ✅ 렌더링 이후 강제 맨 위로
+        requestAnimationFrame(() => {
+            window.scrollTo(0, 0);
+        });
+    }
 }
 
-if (window.innerWidth <= 720) {
-    document.getElementById("image-page").offsetHeight;  // 강제 reflow
-    window.scrollTo(0, 0);
+function goBackFromImage() {
+    document.getElementById("image-page").style.display = "none";
+    document.getElementById("primary").style.display = "block";
+
+    if (window.innerWidth <= 720) {
+        document.body.style.overflowY = 'hidden';
+    }
 }
+
 
 
 
