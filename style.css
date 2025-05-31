@@ -245,14 +245,14 @@ a:focus .link-text {
 @media (max-width: 720px) {
     .dot-wrapper {
         position: absolute;
-        top: 40px;
+        top: 60px;
         text-align: center;
     }
     .hover-box {
         display: none;
         position: absolute;
         left: 0px;
-        top: 50%;
+        top: 100%;
         width: max-content;
         padding: 0px 0px;
         z-index: 1000;
@@ -373,7 +373,7 @@ body {
 
 .about-text {
     white-space: pre-wrap;
-    top: 10px;
+    top: 60px;
     left: 5px;
     font-family: 'Space Grotesk', 'NotoSansKR', sans-serif;
     font-weight: 500;
