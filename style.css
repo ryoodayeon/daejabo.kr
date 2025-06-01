@@ -248,6 +248,9 @@ a:focus .link-text {
         top: 60px;
         text-align: center;
     }
+    .dot-label {
+        color: rgb(0, 0, 0);
+    }
     .hover-box {
         display: none;
         position: absolute;

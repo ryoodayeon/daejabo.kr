@@ -726,7 +726,7 @@
 
 <div id="image-page" style="display: none;">
     <nav class="top-nav">
-        <div class="nav-left" onclick="goBackFromImage()">HOME</div>
+        <div class="nav-left" onclick="goBackFromImage()">BACK</div>
 <div class="nav-right">
     <a href="index.html"><span class="link-text">KR</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="en.html"><span class="link-text">EN</span></a>
         </div>
@@ -928,11 +928,15 @@ if (window.innerWidth <= 720) {
             const dotRect = dot.getBoundingClientRect();
             const relativeLeft = dotRect.left - containerRect.left;
 
-            if (relativeLeft <= container.clientWidth * 0.3) {
-                dot.querySelector('.hover-box').style.display = 'block';
-            } else {
-                dot.querySelector('.hover-box').style.display = 'none';
-            }
+            if (
+    relativeLeft >= container.clientWidth * 0.2 &&
+    relativeLeft <= container.clientWidth * 0.3
+) {
+    dot.querySelector('.hover-box').style.display = 'block';
+} else {
+    dot.querySelector('.hover-box').style.display = 'none';
+}
+
         });
     });
 }
