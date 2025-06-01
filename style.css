@@ -108,6 +108,12 @@ body {
     right: 15px; /* 오른쪽 끝에서 약간 띄우기 */
 }
 
+@media (max-width: 720px) {
+    .left-nav {
+        color: #ffffff;
+    }
+} 
+
 .prev-btn, 
 .next-btn {
     font-size: 40px;
@@ -261,7 +267,6 @@ a:focus .link-text {
         z-index: 1000;
         background-color: #f1f1f1;
         transform: none;
-    
     }
     
 } 
@@ -394,6 +399,9 @@ body {
     }
     .horizontal-container.shifted {
         transform: translateX(75vw);
+    }
+    .about-text {
+        top: 100px;
     }
 }
 
