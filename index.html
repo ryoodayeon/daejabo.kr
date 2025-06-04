@@ -933,7 +933,7 @@ function closeVerdict() {
     verdictPage.style.display = 'none';
 }
 
-if (window.innerWidth <= 720) {
+if (window.innerWidth <= 400) {
     const dotWrappers = document.querySelectorAll('.dot-wrapper');
     const container = document.querySelector('.horizontal-container');
 
@@ -972,6 +972,10 @@ if (window.innerWidth <= 720) {
     const aboutPage = document.getElementById('about-page');
     aboutPage.scrollTop = 0;
 }
+document.getElementById("about-page").style.display = "flex";
+setTimeout(() => {
+    document.getElementById("about-page").scrollTop = 0;
+}, 0); // 또는 10ms 정도 줘도 됨
 
 
 

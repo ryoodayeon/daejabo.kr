@@ -1,301 +1,336 @@
 const images = [
     {
         src: "resources/1204_khu.jpg",
-        title: "윤석열은 즉각 퇴진하라",
-        desc: `“살아남은 우리들은 함께 권력을 탈환한다”는 시국선언문을 게시한 지 채 하루가 지나지 않아 나라가 혼란에 빠졌다.
+        title: "Yoon Seok-yeol Must Step Down Immediately",
+        desc: `Less than a day after posting a declaration stating "We survivors will reclaim power together," the nation fell into chaos. On December 3, 2024, at 22:00, Yoon Seok-yeol declared martial law under the pretext of "eradicating anti-state forces." Immediately, armed soldiers broke through windows and entered the National Assembly, and helicopters were deployed over Yeouido. Soldiers pointed guns at citizens who had gathered at the National Assembly. The martial law command issued Proclamation No. 1, threatening citizens' lives by declaring that "violators of the proclamation will be punished under martial law."
 
-2024년 12월 3일 22시, 윤석열은 “중복 반국가세력 척결”을 위한다며 비상계엄을 선포했다. 그 즉시 무장한 군인들이 창문을 깨고 국회로 진입했고, 여의도에는 헬기가 띄워졌다. 군인들은 국회로 모인 시민들에게 총구를 겨누었다. 계엄사령부는 포고령 1호를 발표했으며 “포고령 위반자는 계엄법에 의해 처단”한다며 시민의 생명을 단두대에 올렸다. 어제의 비상계엄 선포는 국회의 통고도 없이 졸속으로 이루어져 헌법 제77조를 위반한 것은 물론, 국회 폐쇄를 시도하며 명백히 자유민주주의의 근간을 뒤흔들었다.
+Yesterday's declaration of martial law was hastily carried out without notification to the National Assembly, violating Article 77 of the Constitution, and clearly shook the foundations of liberal democracy by attempting to shut down the National Assembly. "I witness death approaching me one step closer every day." After watching workers die in workplaces, die on isolated stages, and citizens die from various blows, I now had to watch death approaching in flames from my own home.
 
-“나는 매일 죽음이 내게 한 발자국 더 가까워지는 걸 목도한다.” 노동자가 일터에서 죽고, 고립된 무대에서 죽고, 시민들이 어떤 일격들에 죽는 걸 바라보다가 이제 내 집에서, 화염에 다가오는 죽음을 지켜봐야 했다.
+"We, who accumulate guilt day by day every time we take the subway on school routes permitted only to bodies that society deems capable of labor, not respecting people with disabilities as citizens," witnessed the National Assembly Station - a site of struggle where the Solidarity Against Disability Discrimination fights against discrimination - become a battleground against Yoon Seok-yeol's martial law. "And the arrows of that hostility and violence point in all directions."
 
-“장애인을 시민으로서 존중하지 않으며 사회가 노동할 수 있다고 규정한 몸에게만 허락된 등교길 지하철을 탈 때마다 하루하루 죄책감을 쌓는” 우리는 전국장애인차별철폐연대가 차별에 저항하는 투쟁 현장인 국회사당역에 윤석열의 계엄령에 맞서 싸우는 투쟁의 장이 된 것을 보았다.
+"The Yoon Seok-yeol government is trampling on freedom of expression, which is both a prerequisite and requirement for the existence of democracy." While declaring martial law, they prohibited the activities of the National Assembly, local assemblies, political parties, gatherings, and demonstrations. The president's words calling the nation a den of crime are absurd. The one who is now trampling citizens' freedoms and threatening democracy is Yoon Seok-yeol himself.
 
-“그리고 그 적대와 폭력의 화살은 사방으로 향한다.” “윤석열 정부는 민주주의의 전제이자 존립의 요건인 표현의 자유를 유린하고 있다.” 계엄령을 선포하면서 국회, 지방의회, 정당의 활동, 집회 및 시위을 금지했다. 국가의 범죄의 소굴이라는 대통령의 말은 가당치 않다. 지금 시민들의 자유를 유린하고 민주주의를 위협에 빠뜨리는 자는 윤석열 본인이다. “우리는 더이상 자신의 기득권을 유지하기 위해 시민의 안전과 연대를 무너뜨리는 현 정권의 행태를 참을 수 없다.”
+"We can no longer tolerate the current regime's behavior of destroying citizens' safety and solidarity to maintain its own vested interests." Let us unite our strength to end Yoon Seok-yeol. We must advance until Yoon Seok-yeol steps down from the presidency and is punished for turning all citizens' lives into a gambling table in an instant.
 
-힘을 모아 윤석열을 끝내내라. 윤석열이 대통령직에서 내려오고 시민의 모든 삶을 한순간에 도박판처럼 만든 죄를 처벌받을 때까지 우리는 진격해야 한다. 우리는 아무것도 들을 것이 없다. 누구도 함부로 배제되거나 죽지 않는 사회를 위해, 살아남은 우리는 함께 동물들과 권력을 탈환할 것이다. 우리가 그리는 사회를 위해 긴급한 투쟁하자. 자신의 이익을 위해서라면 국가를 파괴하는 것도 마다치 않는 무책임한 윤석열은 즉각 퇴진하라!
+We have nothing to lose. For a society where no one is arbitrarily excluded or dies, we survivors will reclaim power together with all living beings. Let us engage in an urgent struggle for the society we envision. Irresponsible Yoon Seok-yeol, who would not hesitate to destroy the nation for his own interests, must step down immediately!
 
-24.12.04
-경희대학교 학생∙소수자인권위원회 '울림'`
+24.12.04  
+Kyung Hee University Student & Minority Human Rights Committee 'Ullim'
+`
     },
     {
         src: "resources/1204_1korea.jpg",
-        title: `친애하는 고대 학생 제군! 
-한마디로 대학은 반항과 자유의 표상이다.`,
-        desc: `우리는 64년 전, 선배 고대 학생 제군들의 피로 쓰인 민주화의 역사 위에 다시 섰다. 지금, 2만 민족고대생은 역사가 쟁취한 민주주의의 정신과 학생사회의 근간 앞에 놓여 있다. 우리는 일체의 압제에 저항해야 하며, 우리의 정치적 일상에 대해 자유로워야 한다.
+        title: `Dear Fellow Korea University Students! In a word, the university is a symbol of rebellion and freedom`,
+        desc: `We stand once again upon the history of democratization written in blood by our senior Korea University students 64 years ago. Now, 20,000 Korea University students stand before the spirit of democracy that history has won and the foundation of student society. We must resist all oppression and be free in our political daily lives.
 
-지난 12월 3일, 윤석열 대통령에 의해 독재정부 이후 최초의 계엄령이 선포되었다. 대국민 담화에서는 '지금까지 패악질을 일삼은 망국의 원형, 반국가 세력'이 척결의 대상으로 언급되었다. 계엄사령관 육군 대장 박안수에 의해 포고령 1호가 발령되었다. 포고령 서두에서는 "자유 대한민국 내부에 암약하고 체제전복을 도모하는 반국가 세력"이 언급되었다.
+On December 3rd, President Yoon Seok-yeol declared the first martial law since the era of dictatorship. In his address to the nation, he mentioned "the prototype of national ruin that has been committing evil deeds, anti-state forces" as targets for elimination. Proclamation No. 1 was issued by Martial Law Commander Army General Park An-su. The preamble of the proclamation mentioned "anti-state forces lurking within the free Republic of Korea and plotting to subvert the system."
 
-우리는 묻지 않을 수 없다. 우리의 자유민주주의를 전복하고자 한 반국가세력은 누구인가? 그 내용도 절차도 위헌적인 계엄령으로써 입헌주의를 위협한 반국가세력은 누구인가? 국회 봉쇄와 군 진입으로써 권력분립의 원리를 파괴한 반국가세력은 누구인가? 주권자인 국민에게 결사와 집회의 자유를 빼앗으려들며 국민주권과 국민자치의 원리를 겁박한 반국가세력은 도대체 누구인가? 반공 이데올로기의 부활절을 제정하여 국론을 분열시키고 자유민주주의를 전복한 그 ‘세력’은 도대체, 도대체 누구인가?
+We cannot help but ask: Who are the anti-state forces that sought to subvert our liberal democracy? Who are the anti-state forces that threatened constitutionalism with martial law that was unconstitutional in both content and procedure? Who are the anti-state forces that destroyed the principle of separation of powers by blockading the National Assembly and deploying military forces? Who exactly are the anti-state forces that tried to deprive the sovereign people of their freedom of association and assembly, intimidating the principles of popular sovereignty and self-governance? Who exactly, exactly are those "forces" that established the revival of anti-communist ideology, dividing national opinion and subverting liberal democracy?
 
-자유롭고 창의적인 진리탐구는 대학의 영원한 사명이며, 이를 침해하려는 내외의 모든 힘에 대하여 저항하는 것 은 대학인의 양도할 수 없는 권리이자 의무이다. 고려대학교 총학생회칙 전문의 가장 첫 문장은 이렇게 쓰여 있 다. 우리 학생사회는 모든 불의에 항거함으로써 민주주의를 외쳐야 하고, 어떤 탄압 앞에서도 자유와 정의를 수호 하고 진리를 밝히는 겨레의 횃불을 자임하지 않을 수 없다.
+Free and creative pursuit of truth is the eternal mission of the university, and resisting all internal and external forces that attempt to violate this is the inalienable right and duty of university members. The very first sentence of Korea University Student Council Constitution preamble reads thus: Our student society must cry out for democracy by resisting all injustice, and we cannot help but take upon ourselves the role of being the nation's torch that protects freedom and justice and reveals truth in the face of any oppression.
 
-바야흐로 우리는 민주주의의 시대를 살고 있는가? 회의(懷疑)의 밤은 가고 확신의 아침이 밝았다. 극악무도한 계 엄세력은 3시간 만에 좌절되었고, 6시간 만에 침몰하였다. 그들은 이 나라의 주권자인 국민의 저항도, 민의의 전 당인 국회의 총의도, 진실의 통로로서 언론의 목소리도 막지 못했다. 이제 학생사회는 불의에 항거하려는 목소리 에 함께 해야 한다. 민주주의를 억압하려는 모든 압제를 단호히 거부해야만 한다. 우리의 저항과 자유로 하여금, 반민주 내란세력과 모든 민주주의의 적을 역사의 심판대에 세우기 위해 일어설 때이다.
+Are we truly living in an age of democracy? The night of doubt is over and the morning of conviction has dawned. The heinous martial law forces were frustrated within 3 hours and sank within 6 hours. They could not stop the resistance of the people who are the sovereign of this nation, the consensus of the National Assembly as the hall of public will, or the voice of the media as a channel of truth.
 
-우리는 자유민주주의 국가의 청년이다. 언제 어디서든 모여 학문을 탐구하고, 대화의 장을 펼쳐나갈 수 있다. 우리 헌법이 보장하는 집회와 표현의 자유를 당당히 누릴 수 있다. 세상의 다양한 이야기를 언제든 들을 수 있고, 우리의 이야기를 듣도록 소리 높여 주장할 수 있다. 연구하고 싶은 것을 연구하고 끊임없이 질문하며 성숙한 사회 시민을 원한다. 단지 우리 개인의 권리를 넘어 사회 발전과 민주주의 성숙을 위해 행동한다. 우리는 민주주의 의 쟁취를 위해 맞서싸운 고려대학교 정신을 기억하며, 민주주의를 억압하는 모든 시도를 단호히 거부한다.
+Now student society must join voices that seek to resist injustice. We must firmly reject all oppression that seeks to suppress democracy. It is time to rise up so that through our resistance and freedom, we can bring anti-democratic insurrectionist forces and all enemies of democracy before the tribunal of history.
 
-하여 이 나라의 반민주정부가 또다시 독재국가로의 이행을 선포한다면, 우리 민족고대 학생 제군은 우리 선배 고대생이 그러했듯, 가장 먼저, 언제든지, 또 기꺼이 반국가세력을 자청할 것임을 선언하며 다음과 같이 결의한다.
+We are the youth of a liberal democratic state. We can gather anywhere, anytime to explore academics and expand forums for dialogue. We can proudly enjoy the freedom of assembly and expression guaranteed by our Constitution. We can listen to various stories from the world anytime, and we can raise our voices to make our stories heard. We want to research what we want to research, constantly question, and become mature citizens of society. Beyond just our individual rights, we act for social progress and the maturation of democracy.
 
-하나. 계엄 및 내란세력을 헌법 앞에 단죄하라.
-하나. 우리는 위헌적인 계엄에 반대한다.
-하나. 우리는 자유민주주의를 향한 일체의 압제를 규탄한다.
-하나. 우리는 모든 불의에 맞서 민주주의를 지킬 것이다.
+Remembering the Korea University spirit that fought for the achievement of democracy, we firmly reject all attempts to suppress democracy. Therefore, if this nation's anti-democratic government once again declares a transition to a dictatorial state, we Korea University students declare that, just as our senior Korea University students did, we will be the first, anytime, and gladly volunteer to be anti-state forces, and resolve as follows:
 
-압제壓制를 불살라라
-제54대 고려대학교 총학생회`
+One. Judge the martial law and insurrectionist forces before the Constitution.
+One. We oppose unconstitutional martial law.
+One. We condemn all oppression against liberal democracy.
+One. We will protect democracy against all injustice.
+
+Burn down oppression!
+
+The 54th Korea University Student Council
+`
     },
     {
         src: "resources/1204_1ku.jpg",
-        title: "윤석열 대통령의 위헌·불법·반국가적 비상계엄의 발동을 규탄한다.",
-        desc: `"내란사범 윤석열을 탄핵하라!"
+        title: "“Impeach Insurrectionist Yoon Seok-yeol!”",
+        desc: `1. The martial law declared effective from 23:00 on December 3, 2024, was issued despite not meeting the conditions for martial law declaration stipulated by the Constitution: "wartime, emergency, or equivalent national emergency."
 
-1. 2024년 12월 3일 23시부로 발령된 비상계엄은 헌법이 계엄 선포의 조건으로 규정하고 있는 "전시·사변 또는 이에 준하는 국가비상사태"가 아니었음에도 발령되었다.
+2. The martial law proclamation exceeded the scope of measures stipulated in Article 77, Paragraph 3 of the Constitution by prohibiting the activities of the National Assembly, local assemblies, and political parties.
 
-2. 비상계엄 포고문은 국회, 지방의회, 정당의 활동을 금지함으로써 헌법 제77조 제3항이 규정하고 있는 조치 범위를 넘어섰다.
+3. Yoon Seok-yeol violated Article 77, Paragraph 4 of the Constitution, which stipulates "immediate notification to the National Assembly," by failing to notify the National Assembly after declaring martial law.
 
-3. 윤석열은 계엄 선포 후 국회에 통고하지 않음으로써 '바로 국회에 통고할 것'을 규정한 헌법 제77조 제4항을 위반하였다.
+4. The National Assembly passed a resolution demanding the lifting of martial law, thereby reconfirming that the unconstitutional martial law was invalid and should be immediately lifted. However, President Yoon Seok-yeol did not immediately respond to the National Assembly's demand for lifting.
 
-4. 국회가 계엄 해제 요구 결의안을 통과시키며 따라 위헌적 비상계엄은 무효임이 재차 확인되었으며, 즉시 해제되어야 했다. 그러나 윤석열 대통령은 국회의 해제 요구에 즉각 답하지 않았다.
+5. At 4:20 AM on December 4, 2024, in his address to the nation announcing the lifting of martial law, Yoon Seok-yeol did not acknowledge his wrongdoing and only offered excuses, saying "The outrageous acts of paralyzing state functions through repeated impeachment, legislative manipulation, and budget manipulation must stop immediately."
 
-5. 2024년 12월 4일 4시 20분, 윤석열은 계엄령 해제 대국민 담화에서 본인의 잘못을 인정하지 않고 "거듭되는 탄핵과 입법 농단, 예산 농단으로 국가의 기능을 마비시키는 무도한 행위는 즉각 중지해라"라는 변명만 내세웠다.
+Korea University Culture opposes President Yoon Seok-yeol's unconstitutional, illegal, and anti-state declaration of martial law. Yoon Seok-yeol is an insurrectionist who attempted to overthrow the state through unconstitutional martial law. The martial law was nothing more than a palace coup.
 
-고대문화는 윤석열 대통령의 위헌·불법·반국가적인 비상계엄의 발동에 반대한다. 윤석열은 위헌적 비상계엄을 통해 국가 복원을 시도한 내란 사범이다. 비상계엄은 친위 쿠데타에 지나지 않는다. 윤석열의 소위 계엄 선포와 잇따른 군 계엄은 진정한 주권을 가진 민중을 욕보이는 행위이며 민주주의 근간을 흩트리는 시도이다.
+Yoon Seok-yeol's so-called martial law declaration and subsequent military martial law is an act that insults the people who hold true sovereignty and an attempt to shake the foundations of democracy. Yoon Seok-yeol invoked martial law under the pretext of "protecting" "liberal democracy," attempted to obstruct the normal functioning of the National Assembly, and threatened the people with military force. What does he intend to make free and what does he intend to protect? Are the freedom, democracy, state, and people mentioned in his address truly alive?
 
-윤석열은 '자유 민주주의'를 '수호'한다는 이유로 계엄을 발동하고, 정상적인 국회의 작동을 저지하려 했으며, 군사력으로 민중을 위협다. 무엇을 자유롭게 하고 무엇을 수호하겠다는 것인가? 담화 속 자유, 민주주의, 국가와 국민은 정말 살아 있는가 척결하고 타도해야 할 것은 '종북' 그리고 '반국가 세력'이 아니라 윤석열이다.
+What needs to be eradicated and overthrown is not "pro-North Korea" or "anti-state forces," but Yoon Seok-yeol himself.
+
 `
 
     },
     {
         src: "resources/1203_1k.jpg",
-        title: "윤석열 대통령의 위헌·불법·반국가적 비상계엄의 발동에 반대한다",
-        desc: `1. 2024년 12월 4일 23시부로 발령된 비상계엄은 헌법이 계엄 선포의 조건으로 규정하고 있는 “전시·사변 또는 이에 준하는 국가비상사태”가 아니었음에도 발령되었다.
+        title: "We Oppose President Yoon Seok-yeol's Unconstitutional, Illegal, and Anti-State Declaration of Martial Law",
+        desc: `1. The martial law declared effective from 23:00 on December 4, 2024, was issued despite not meeting the conditions for martial law declaration stipulated by the Constitution: "wartime, emergency, or equivalent national emergency."
 
-2. 비상계엄 포고문은 국회, 지방의회, 정당의 활동을 금지함으로써 헌법 제77조 제3항이 규정하고 있는 초지 범위를 넘어섰다.
+2. The martial law proclamation exceeded the scope of measures stipulated in Article 77, Paragraph 3 of the Constitution by prohibiting the activities of the National Assembly, local assemblies, and political parties.
 
-3. 윤석열은 계엄 선포 후 국회에 통고하지 않음으로써 ‘바로 국회에 통고'할 것을 규정한 헌법 제77조 제4항을 위반하였다.
+3. Yoon Seok-yeol violated Article 77, Paragraph 4 of the Constitution, which stipulates "immediate notification to the National Assembly," by failing to notify the National Assembly after declaring martial law.
 
-4. 국회가 계엄 해제 요구 결의안을 통과시킴에 따라 위헌적 비상계엄은 무효임이 재차 확인되었으며, 즉시 해제되어야 한다.
+4. As the National Assembly passed a resolution demanding the lifting of martial law, it was reconfirmed that the unconstitutional martial law was invalid and must be immediately lifted.
 
-고대문화는 윤석열 대통령의 위헌·불법·반국가적인 비상계엄의 발동에 반대한다. 윤석열은 위헌적 비상계엄을 통해 국가 전복을 시도한 내란 사범이다.
+Korea University Culture opposes President Yoon Seok-yeol's unconstitutional, illegal, and anti-state declaration of martial law. Yoon Seok-yeol is an insurrectionist who attempted to overthrow the state through unconstitutional martial law. The martial law was nothing more than a palace coup.
 
-비상계엄은 친위 쿠데타에 지나지 않는다. 윤석열의 소위 계엄 선포와 잇따른 군 계엄은 진정한 주권을 가진 민중을 욕보이는 행위이며 민주주의 근간을 흩트리는 시도이다. 민주공화국은 이를 용납하지 않는다.
+Yoon Seok-yeol's so-called martial law declaration and subsequent military martial law is an act that insults the people who hold true sovereignty and an attempt to shake the foundations of democracy. The democratic republic will not tolerate this.
 
-‘민중을 위한’ 계엄은 결코 존재한 적 없다. 국가 재건을 내세운 계엄의 정당성들 거부한다. 우리가 어떤 계엄을 지나고 겪었는지 잊어서는 안 된다. 수많은 시민이 ‘국가보안’라는 허울 아래 국가 폭력에 의해 죽고 다쳤다.
+There has never been martial law "for the people." We reject the justifications of martial law proclaimed under the banner of national reconstruction. We must not forget what kind of martial law we have experienced and endured. Countless citizens died and were injured by state violence under the guise of "national security."
 
-고대문화는 가장 앞장서 독재에 맞설 것이다. 1980년 5월 광주에서, 1987년 6월 전국 곳곳에서 수많은 시민이 피 흘렸던 역사를 기억한다. 세계을 변혁하는 대항 언론으로서, 우리 고대문화는 윤석열의 반헌법적 행위에 저항할 것이다.
+Korea University Culture will take the lead in confronting dictatorship. We remember the history of countless citizens who shed blood in Gwangju in May 1980 and throughout the nation in June 1987.
 
-두려움을 딛고, 저항하라!
+As a resistance media that transforms the world, we Korea University Culture will resist Yoon Seok-yeol's anti-constitutional acts.
 
-세계를 변혁하는 디/항/인/론  
-고대문화 편집위원회`
+Overcome fear and resist!
+
+World-Transforming Resistance Media Korea University Culture Editorial Committee
+`
     },
     {
         src: "resources/1204_7sg.jpg",
-        title: "윤석열 대통령의 헌정 질서 파괴를 강력 규탄한다.",
-        desc: `어젯밤, 우리는 자유민주주의의 추락을 경험했음이 자명하다. 2024년 12월 3일 22시 20분 무렵, 우리는 45년 만의 비상계엄을 직면했다. 윤석열 대통령은 긴급 브리핑을 통해 국민의 자유와 행복을 약탈하는 종북 반국가세력들을 일거에 척결하고 자유 헌정 질서를 지키기 위함이라며 비상계엄을 선포했다.
+        title: "We Strongly Condemn President Yoon Seok-yeol's Destruction of Constitutional Order",
+        desc: `Last night, it is evident that we experienced the fall of liberal democracy. Around 22:20 on December 3, 2024, we faced martial law for the first time in 45 years. President Yoon Seok-yeol declared martial law through an emergency briefing, claiming it was to eradicate pro-North Korean anti-state forces that plunder the people's freedom and happiness, and to protect the free constitutional order.
 
-헌법 제77조 제1항은 “전시·사변 또는 이에 준하는 국가비상사태에 있어서 병력으로써 군사상의 필요에 응하거나 공공의 안녕질서를 유지할 필요가 있을 때”에 계엄을 선포할 수 있다고 명시한다. 그러나 12월 3일 밤, 국가 존립에 관한 비상사태는 부재하였으며, 되려 헌법과 법률을 위반한 비상계엄의 선포로 인해 헌정 질서 파괴되었임이 분명하다. 윤석열 대통령은 권력의 독선과 오만을 멈추고 비상계엄 선포에 대한 엄중한 책임을 반드시 져야만 한다. 계엄령 선포 시에는 국회에 통고하기는커녕 국민의 뜻을 전하는 국회를 반국가세력으로 지목하고, 계엄군을 봉원해 국회 봉쇄를 시도하는 사실은 결코은 용인될 수 없다. 자유 헌정 질서를 수호하겠다는 이유로 선포한 계엄령은 자유민주주의를 절벽에서 밀어버린 것과 궤를 같이 한다. 언론과 출판을 통제하고, 집회와 결사의 자유를 제한하는 실로 비민주주의 처사에 금치 못할 참담함이 밀려온다.
+Article 77, Paragraph 1 of the Constitution specifies that martial law can be declared "in wartime, emergency, or equivalent national emergency when it is necessary to respond to military needs with armed forces or maintain public peace and order." However, on the night of December 3rd, there was no emergency concerning national existence, and it is clear that the constitutional order was destroyed by the declaration of martial law that violated the Constitution and laws.
 
-서강대학교 총학생회는 인간의 존엄성과 인간관계에 있어 정의와 사랑에 대한 신념을 바탕으로 평등한 권리 추구를 위한 학생회 건설이라는 목표를 가지고 민주 사회 건설을 위해 싸워왔던 자랑스러운 선배들의 피땀을 되새길 것을 회칙의 전문에서 다짐한다. 우리는 앞선 다짐을 이행하고자 하며, 어젯밤 윤석열 대통령의 몰상식한 행태에 깊은 분노와 우려를 표한다. 이는 민주주의를 수호하고자 했던 수많은 국민의 노력과 희생을 짓밟는 행위이며, 헌법에서 명시하는 국민 주권의 원칙을 근본적으로 부정하는 폭거이다. 민주주의는 흔들릴지언정 무너지지 않으며, 결코 권력의 도구로 전락할 수 없다. 정의와 자유를 염원하는 서강인의 목소리는 비록 억압 속일지라도 생생할 것이다. 비상계엄이라는 이름으로 헌법의 가치를 훼손하고 국민의 권리를 짓밟으며 우리 사회를 수렁으로 빠뜨리는 윤석열 대통령의 행위를 강력히 규탄한다.
+President Yoon Seok-yeol must stop the arbitrariness and arrogance of power and take stern responsibility for declaring martial law. When declaring martial law, far from notifying the National Assembly, he designated the National Assembly—which conveys the people's will—as anti-state forces and attempted to blockade the National Assembly by dispatching martial law troops. This is absolutely unacceptable.
 
-2024.12.04.`
+The martial law declared under the pretext of protecting the free constitutional order is equivalent to pushing liberal democracy off a cliff. The truly undemocratic measures of controlling media and publications and restricting the freedom of assembly and association bring overwhelming dismay.
+
+Sogang University Student Council pledges in the preamble of its constitution to reflect on the blood and sweat of proud predecessors who fought for the construction of a democratic society with the goal of building a student council for the pursuit of equal rights based on beliefs in human dignity and justice and love in human relationships.
+
+We seek to fulfill our previous pledge and express deep anger and concern about President Yoon Seok-yeol's senseless behavior last night. This is an act that tramples on the efforts and sacrifices of countless citizens who sought to protect democracy, and violence that fundamentally denies the principle of popular sovereignty specified in the Constitution.
+
+Democracy may waver but will not collapse, and can never be reduced to a tool of power. The voices of Sogang people who yearn for justice and freedom will remain vivid even under oppression.
+
+We strongly condemn President Yoon Seok-yeol's actions of damaging constitutional values in the name of martial law, trampling on citizens' rights, and plunging our society into a quagmire.
+
+2024.12.04
+`
     },
     {
         src: "resources/1204_7seoul.jpg",
-        title: "윤석열의 비상계엄 선포를 규탄한다.",
-        desc: `2024년 12월 3일 밤, 윤석열은 비상계엄을 선포했다. 1980년 이후 44년 만에 이루어진, 87년 헌정 체제 이후 초유의 사태다. 윤석열은 “국가의 본질적 기능을 마비시키고 자유민주주의 헌정 질서를 붕괴시키려는 반국가세력에 맞서 결연한 구국의 의지로 비상계엄 선포했다”고 밝혔다.
+        title: "We Condemn Yoon Seok-yeol's Declaration of Martial Law",
+        desc: `On the night of December 3, 2024, Yoon Seok-yeol declared martial law. This was the first such event in 44 years since 1980, and an unprecedented situation since the constitutional system of 1987. Yoon Seok-yeol stated that he "declared martial law with resolute will to save the nation against anti-state forces that paralyze the essential functions of the state and seek to collapse the liberal democratic constitutional order."
 
-금번의 비상계엄 선포는 대한민국의 자유민주적 헌정질서를 짓밟는 행위임이 분명하다. 윤석열의 비상계엄 선포는 대한민국 헌법 제77조 제1항과 계엄법 제2조 제2항에 따라 명백히 위헌이자 위법이다. 정파적 갈등을 떠나, 윤석열의 비상계엄 선포는 국민의 대의기관인 국회를 종북 반국가세력으로 전락시키고, 국가 기관의 의결을 교란으로 일축하는 부당한 처사다. 망국의 나락으로 떨어지고 있는 자유대한민국을 재건한다는 윤석열의 비상계엄 선포 명분은 도리어 자유 헌정질서를 망국의 나락으로 이끌었다.
+This declaration of martial law is clearly an act that tramples on the liberal democratic constitutional order of the Republic of Korea. Yoon Seok-yeol's declaration of martial law is clearly unconstitutional and illegal according to Article 77, Paragraph 1 of the Constitution of the Republic of Korea and Article 2, Paragraph 2 of the Martial Law Act.
 
-더욱 참담한 것은 이 비민주적 비상계엄이 우리의 학문적 전당마저 위협하고 짓밟으려 했다는 점이다. 포고령으로 언론·출판·집회·결사의 자유를 제한하고, 자유로운 비판과 토론으로 활기에 가득 찼어야 할 우리의 전당을 존중하지 않았다. 진리의 횃불에 어둠이 드리우는 것을 우리는 결코 좌시하지 않으리라. 우리의 목소리로 불씨를 피우리라.
+Beyond partisan conflict, Yoon Seok-yeol's declaration of martial law is an unjust act that relegates the National Assembly—the representative institution of the people—to pro-North Korean anti-state forces and dismisses the decisions of state institutions as disruption.
 
-겨레의 빛을 밝혀가는 우리의 의지가 결코 희미해지지 않기를, 앞장서 나아가는 민주적 걸음이 비민주적 행위에 무너지지 않기를 바란다. 국가 권력이 민주주의의 가치를 지키지 않는다면 우리는 기꺼이 권력에 저항할 것이며, 불의를 타도할 것이다. 불의에 항거하는 4.19 민주 이념을 무참히 짓밟은 윤석열의 행위를 규탄한다.
+Yoon Seok-yeol's justification for declaring martial law to rebuild the free Republic of Korea that is falling into the abyss of national ruin has instead led the free constitutional order into that very abyss of ruin.
 
-2024년 12월 4일`
+What is even more tragic is that this undemocratic martial law threatened and attempted to trample even our academic halls. The proclamation restricted freedom of press, publication, assembly, and association, showing no respect for our halls that should have been filled with vitality through free criticism and discussion.
+
+We will never stand by and watch darkness cast over the torch of truth. We will kindle the flame with our voices. We hope that our will to brighten the light of our people will never dim, and that our democratic steps moving forward will not collapse before undemocratic acts.
+
+If state power does not protect the values of democracy, we will gladly resist that power and overthrow injustice. We condemn Yoon Seok-yeol's act of ruthlessly trampling the April 19th democratic ideals that resist injustice.
+
+December 4, 2024
+`
     },
     {
         src: "resources/1204_7ss.jpg",
-        title: "윤석열 정부의 반헌법적 계엄령 선포를 강력히 규탄한다.",
-        desc: `22024년 12월 3일 22시 28분, 윤석열은 대국민 담화를 통해 “종북 세력을 척결하고, 자유 헌 정질서를 지키기 위해" 대한민국 전역에 비상계엄을 선포했다. 이는 1980년 이후 44년 만에 이루어진, 87년 헌정 체제 이후 초유의 사태이며, 결코 용납될 수 없는 행위이다.
+        title: "We Strongly Condemn the Yoon Seok-yeol Government's Anti-Constitutional Declaration of Martial Law",
+        desc: `At 22:28 on December 3, 2024, Yoon Seok-yeol declared martial law throughout the Republic of Korea through a national address "to eradicate pro-North Korean forces and protect the free constitutional order." This is an unprecedented situation since the constitutional system of 1987, occurring for the first time in 44 years since 1980, and is an absolutely unacceptable act.
 
-윤석열은 대통령에 취임하며 헌법을 준수하고 국가를 보위하겠다고 선서하였다. 하지만 지난 밤 자행된 계엄령 선포와 계엄사령부 명령 포고, 계엄군의 국회 본청 진입은 명백하게 반헌법 적인 국헌문란 행위였다. 대한민국 유일의 입법기관인 국회에 통고하지 않고, 헌법에서 명시된 바에 따른 적법한 절차를 거치지 아니하였으며, 헌법 기관인 국회를 계엄군을 동원해 불법으로 점거하고자 하였다. 이는 결코 '자유 헌정질서'의 수호를 위한 목적으로 볼 수 없다.
+When Yoon Seok-yeol was inaugurated as president, he swore to uphold the Constitution and defend the nation. However, last night's declaration of martial law, the proclamation of martial law command orders, and the entry of martial law troops into the National Assembly main building were clearly anti-constitutional acts of disrupting the national constitution.
 
-서울시립대학교는 대한민국 유일의 공립종합대학으로서, 국체를 훼손하려는 금번의 사태를 강력히 규탄한다. 이에 민중서울시립대학교 총학생회는 탄압과 강압에 항거하여 학생의 인권을 확보하겠노라는 민중서울시립대학교 총학생회칙의 전문과 제9조에 의하여, 또 정의와 진리로 써 시대의 어둠을 밝혀나가겠노라는 학생과 시민의 정신에 의하여 다음과 같이 요구한다.
+He did not notify the National Assembly, which is the Republic of Korea's sole legislative body, did not follow the legal procedures specified in the Constitution, and attempted to illegally occupy the National Assembly—a constitutional institution—by mobilizing martial law troops. This can never be seen as serving the purpose of protecting the "free constitutional order."
 
-하나. 윤석열은 4.19정신과 5.18정신을 훼손하는 반민주적 행위와 결사, 집회, 시위의 권리와 언론과 출판의 자유를 파괴한 반헌법적 행태를 사죄하라.
+Seoul National University of Science and Technology, as the Republic of Korea's only public comprehensive university, strongly condemns this incident that seeks to damage the national polity.
 
-하나. 윤석열은 계엄령 선포의 사유를 국민 앞에 소상히 밝히고 계엄 발령 이후 일련의 조치로 불안을 조성한 것을 사죄하라.
+Therefore, the Seoul National University of Science and Technology Student Council, in accordance with the preamble and Article 9 of the Seoul National University of Science and Technology Student Council Constitution, which pledges to secure students' human rights by resisting oppression and coercion, and by the spirit of students and citizens who pledge to illuminate the darkness of the times with justice and truth, demands the following:
 
-하나. 정부는 계엄령 사태의 위헌성을 인정하고 국기 회복을 위한 조치를 수립하고 시행하라.
+One. Yoon Seok-yeol must apologize for anti-democratic acts that damage the April 19th spirit and May 18th spirit, and anti-constitutional behavior that destroyed the rights of association, assembly, and demonstration and the freedom of press and publication.
 
-민중서울시립대학교 총학생회는 이상의 요구가 완전히 수행될 때까지 학생사회 간 연대로써 불의와 폭거의 저항을 이어갈 것이다.
-2024년 12월 4일`
+One. Yoon Seok-yeol must clearly reveal the reasons for declaring martial law before the people and apologize for creating anxiety through a series of measures following the martial law declaration.
+
+One. The government must acknowledge the unconstitutionality of the martial law incident and establish and implement measures for national recovery.
+
+The Seoul National University of Science and Technology Student Council will continue resistance against injustice and violence through solidarity among student societies until the above demands are completely fulfilled.
+
+December 4, 2024
+`
     },
 
     {
         src: "resources/1204_7skku.jpg",
-        title: "윤석열 대통령의 불법 비상계엄 선포를 규탄한다.",
-        desc: `2024년 12월 3일 23시를 기해 전국에 비상계엄이 선포되었다. 이는 1979년 이후 45년 만에 발생한 초유의 사태다. 윤석열 대통령은 반국가 세력의 체제 전복 위협으로부터 자유민주주의를 수호하고 국민의 안전을 지키기 위함이라며 비상계엄을 선포했으나, 이는 절차와 내용 모두 헌법을 위반한 비민주적 행태라 할 수밖에 없다.
+        title: "We Condemn President Yoon Seok-yeol's Illegal Declaration of Martial Law",
+        desc: `Martial law was declared nationwide effective 23:00 on December 3, 2024. This is an unprecedented situation occurring for the first time in 45 years since 1979. President Yoon Seok-yeol declared martial law claiming it was to protect liberal democracy and ensure citizens' safety from anti-state forces' threats of system subversion, but this can only be described as undemocratic behavior that violated the Constitution in both procedure and content.
 
-더 나아가 국민의 기본권을 제한하는 포고령을 발표하며 민주 시민으로서 당연히 누려야 할 정치적 자유를 억압했다. 언론과 출판을 통제하고 파업과 집회를 금지하며, 계엄에 반하는 모든 시민을 즉시 체포할 수 있다는 내용을 포함한 포고령은 2024년에 쓰였다고 믿기 힘들 정도다. 국회의 의결에 따라 해제된 계엄이지만, 헌법에 명시된 "모든 권력은 국민으로부터 나온다"는 원칙을 윤석열 대통령이 무시한 것이다.
+Furthermore, he announced proclamations restricting citizens' basic rights and suppressed the political freedoms that should naturally be enjoyed as democratic citizens. The proclamations, which controlled media and publications, prohibited strikes and assemblies, and included provisions allowing immediate arrest of all citizens opposing martial law, are hard to believe were written in 2024. Although the martial law was lifted according to the National Assembly's resolution, President Yoon Seok-yeol ignored the principle clearly stated in the Constitution that "all power comes from the people."
 
-윤석열 대통령은 비상계엄을 선포한 직후에도 대한민국헌법 제77조제4항에서 규정한 "계엄 선포 시 대통령은 지체없이 국회에 통고해야 한다"는 절차를 위반하며, 최고법이 정한 절차마저 무시했다. 계엄 상황이라 하더라도 의회를 해산하거나 입법부의 소집을 막을 헌법적 권한은 대통령에게 없다. 그럼에도 불구하고, 윤석열 대통령은 국회의사당에 군대를 투입하는 초법적 조치를 취했다.
+Even immediately after declaring martial law, President Yoon Seok-yeol violated the procedure stipulated in Article 77, Paragraph 4 of the Constitution of the Republic of Korea, which states "the President must notify the National Assembly without delay when declaring martial law," ignoring even the procedures established by the supreme law. Even in a martial law situation, the President has no constitutional authority to dissolve parliament or prevent the convening of the legislature. Nevertheless, President Yoon Seok-yeol took extra-legal measures by deploying troops to the National Assembly building.
 
-아직도 윤석열 대통령은 침묵하고 있다. 계엄을 해제할 때조차 일말의 사죄에 대한 언급이 없었다. 무모하고 무책임한 권력자의 한 마디는 정치, 사회, 경제, 외교 전반에 심각한 타격을 초래했다. 뜬 눈으로 밤을 지새우며 나의 내일을 걱정하고 공동체의 미래를 염려하던 우리는, 오늘도 묵묵히 버스에 오르고 수업을 들으며 일상을 지켜나가고 있다. 하지만 어젯밤의 일을 통해 평범하고 당연했던 일상이 얼마나 쉽게 무너질 수 있는지 깨달았다.
+President Yoon Seok-yeol remains silent even now. Even when lifting martial law, there was no mention of any apology. The reckless and irresponsible words of a powerbroker have caused serious damage across politics, society, economy, and diplomacy. We, who stayed up all night with sleepless eyes worrying about our tomorrows and concerned about our community's future, are still silently boarding buses today, attending classes, and maintaining our daily lives. However, through last night's events, we realized how easily our ordinary and natural daily life can collapse.
 
-그래서 외치고자 한다. 예로부터 선인들은 인의예지 정신을 바탕으로 나라가 바른 길로 나아가도록 목소리를 높여왔다. 상소로써 뜻을 전했던 정신을 본받아, 상상조차 어려웠던 상황에 맞서 성균인이 읍소하는 것은 결코 우연이 아니다. 민주주의를 위해 싸워온 순국선열과 동문들에게 부끄럽지 않기 위해, 성균관대학교 제57대 총학생회 연석중앙운영위원회는 윤석열 대통령의 불법 비상계엄 선포를 강력히 규탄한다.
+Therefore, we wish to cry out. Since ancient times, our predecessors have raised their voices based on the spirit of benevolence, righteousness, propriety, and wisdom to guide the nation on the right path. Following the spirit of those who conveyed their intentions through petitions, it is no coincidence that Sungkyunkwan people are appealing in the face of situations that were unimaginable. In order not to be ashamed before the patriotic martyrs and alumni who fought for democracy, the 57th Sungkyunkwan University Student Council Joint Central Executive Committee strongly condemns President Yoon Seok-yeol's illegal declaration of martial law.
 
-2024년 12월 4일
-성균관대학교 제57대 총학생회 연석중앙운영위원회
-제57대 총학생회 S: CATCH. 제39대 유학대학 학생회 유(儒)성• 제53대 문과대학 학생회 반듯 제40대 사회과학대학 학생회 사공. 제26대 경제대학 학생회 이웃. 제25대 경영대학 학생회 비행운 •제55대 사범대학 학생회 청 : · 제27대 예술대학 학생회 아지트. 제14대 글로벌리더학부 학생회 글라운드
-•제7대 글로벌융합학부 학생회 Clover. 제44대 인문사회과학캠퍼스 동아리연합회 파동
-•제41대 자연과학대학 학생회 WiNDy. 제14대 정보통신대학 학생회 청명. 제40대 공과대학 학생회 성공
-• 제22대 건축학과 학생회 ARCHIVE · 제41대 약학대학 학생회 PHOREST. 제39대 생명공학대학 학생회 Buddy
-ᆞ제57대 스포츠과학대학 학생회 SPURT. 제2대 성균융합원 학생회 B:LVE. 제43대 자연과학캠퍼스 동아리연합회 SPARK`
+December 4, 2024
+
+Sungkyunkwan University 57th Student Council Joint Central Executive Committee
+
+57th Student Council S:CATCH • 39th College of Confucian Studies Student Council Yuseong • 53rd College of Liberal Arts Student Council Bandeut • 40th College of Social Sciences Student Council Sagong • 26th College of Economics Student Council Iut • 25th Business School Student Council Bihaengun • 55th College of Education Student Council Cheong • 27th College of Art Student Council Azit • 14th School of Global Leadership Student Council Glaund • 7th School of Global Convergence Student Council Clover • 44th Humanities and Social Sciences Campus Club Union Padong • 41st College of Natural Sciences Student Council WiNDy • 14th College of Information and Communication Engineering Student Council Cheongmyeong • 40th College of Engineering Student Council Seonggong • 22nd Department of Architecture Student Council ARCHIVE • 41st College of Pharmacy Student Council PHOREST • 39th College of Biotechnology Student Council Buddy • 57th College of Sport Science Student Council SPURT • 2nd SKKU Convergence Student Council B:LVE • 43rd Natural Sciences Campus Club Union SPARK
+`
     },
     {
         src: "resources/1204_8yonsei.jpg",
-        title: "윤석열 대통령의 비상계엄 선포에 관한 연세대학교 총학생회의 규탄 입장문",
-        desc: `연세대학교 총학생회는 민주주의와 헌법 질서를 위협한
-        윤석열 대통령의 비상계엄 선포 행위를 강력히 규탄한다.
+        title: "Yonsei University Student Government Association Statement of Condemnation of President Yun Seok-yul's Declaration of Martial Law",
+        desc: `The Yonsei University Student Government Association strongly condemns the declaration of emergency martial law by President Yoon Seok-yul
+President Yun Seok-yul's declaration of emergency martial law, which threatens democracy and constitutional order.
 
-2024년 12월 3일 밤 10시경, 윤석열 대통령은 대한민국 전역에 비상계엄을 선포했다. 이어 계엄사령부는 포고령 제1호를 통해 국회와 지방의회, 정당의 활동과 정치적 결사, 집회, 시위 등의 정치활동을 일체 금하고, 모든 언론과 출판의 자유를 제한했다. 비상계엄은 헌법에서 명시하고 있는 전시·사변 또는 이에 준하는 국가비상사태와 같이 극도로 제한적인 상황에서만 허용될 수 있는 조치이다. 하지만 윤석열 대통령은 비상계엄의 아무런 요건도 충족되지 않은 상황에서 이를 선포했다. 이번 비상계엄은 반헌법적인 폭거로 절대 용납할 수 없는 조치이다.
+On December 3, 2024, at around 10 p.m., President Yoon declared martial law throughout the Republic of Korea. Through Decree No. 1, the Martial Law Command banned all political activities, including the activities of the National Assembly, local councils, political parties, political associations, rallies, and demonstrations, and restricted all freedom of speech and publication. Martial law is only allowed in extremely limited circumstances, such as wartime or a national emergency as defined by the Constitution. However, President Yun declared martial law under circumstances where none of the requirements for martial law were met. This is an unconstitutional and unacceptable move.
 
-민주사회에서 가장 용인될 수 없는 행위는 일체의 폭력을 동원해 공동체 구성원들을 위협하는 것이다. 서로의 다름을 인정하지 않고 파괴하려는 행위는 민주주의에서 가장 배격되어야 하는 자세이다. 그러나 국민의 자유와 권리를 수호할 가장 막중한 책무를 지고 있는 대통령이 대화와 토론, 서로에 대한 존중으로 국정을 운영하기는커녕 국민을 보호해야 할 군을 동원하여 총을 들고 자신의 권력을 과시하면서 불안감을 조성하였다. 이에 우리는 윤석열 대통령의 비상계엄 조치를 민주주의에 대한 심각한 배신행위로 규정한다.
+The most unacceptable act in a democratic society is to use any form of violence to intimidate members of a community. The refusal to recognize differences and the desire to destroy is the most unacceptable behavior in a democracy. However, instead of running the country through dialogue, debate, and respect for each other, the president, who bears the greatest responsibility for protecting the freedom and rights of the people, has mobilized the military, which is supposed to protect the people, to flaunt his power with guns and create insecurity. We condemn President Yun as a serious betrayal of democracy.
 
-그럼에도 불구하고 이번 계엄 사태가 악화되거나 유혈 사태 등의 심각한 상황이 발생하지 않은 것은 계엄 선포에 분노하고 용기를 낸 수많은 시민들, 당파를 떠나 비상계엄의 문제점을 즉시 지적한 여러 공직자의 올바른 선택 덕분이었다. 이는 설령 일부 권력자가 잘못된 판단을 한다고 하더라도 성숙한 시민들의 힘으로 이를 저지하고 민주주의 가치를 수호할 수 있음을 확인한 사건이었다. 이에 연세대학교 총학생회는 대학에서 진리와 자유의 학문을 탐구하는 미래세대로서 이번 사태가 심각하고 엄중한 사안임을 지적하고, 윤석열 대통령과 관련자들의 책임을 계속해서 요구할 것이다.
+Nevertheless, the fact that the martial law situation did not deteriorate or turn into a bloodbath was due to the courage of many citizens who were outraged by the declaration of martial law, and the right choice of many public officials who immediately pointed out the problems with the emergency martial law, regardless of partisanship. It was an event that confirmed that even if some people in power make wrong judgments, mature citizens can stop them and defend democratic values. As future generations exploring the study of truth and freedom at Yonsei University, the Yonsei University Student Government Association will continue to point out the seriousness of this incident and demand accountability from President Yoon Seok-yul and those involved.
 
-우리는 1987년 6월, 교정과 광장에서 울려 퍼진 학생들과 시민들의 목소리를 기억한다. 연세대학교 총학생회는 다시 한번 대한민국의 민주주의를 지키기 위해 단호한 목소리를 내야 하는 엄중한 시대적 과제에 직면했음에 공감한다. 우리는 어떠한 억압의 순간에도 정의를 위해 앞장섰듯이, 적극적인 행동으로 민주주의와 헌법 가치를 수호할 것이다. 또한 학우들의 이해와 요구에 따라 민주주의를 사랑하는 모든 시민과 연대하며 평화적 저항을 이어갈 것이다.
+We remember the voices of students and citizens that rang out on campus and in the public square in June 1987. We recognize that the Yonsei University Student Association is once again faced with the urgent task of speaking out in defense of democracy in Korea. We will continue to defend democracy and constitutional values through active actions, just as we have stood up for justice in every moment of oppression. We will also continue peaceful resistance in solidarity with all citizens who love democracy in accordance with the interests and demands of our fellow students.
 
-2024년 12월 4일  
-고/동/치/는/민/족/의/맥/박
-연세대학교 총학생회`
+December 4, 2024  
+Yonsei University Student Government Association`
     },
     {
         src: "resources/1204_9yonsei2.jpg",
-        title: "총칼로 얻어낼 질서 따위 필요 없다 : 그 계엄령에 시민은 없었다.",
-        desc: `1979년 10월 26일 박정희 사망 직후 계엄령이 선포되었고, 1980년 5월 17일 전국으로 확대되었다. 그리고 광주의 5월 18일이 찾아왔다. 45년이 지났다. 어제 2024년 12월 3 일 오후 10시. 윤석열 대통령은 계엄령을 선포하고 국회를 봉쇄했다.
+        title: "We Don't Need Order Obtained Through Guns and Swords: There Were No Citizens in That Martial Law.",
+        desc: `On October 26, 1979, martial law was declared immediately after Park Chung-hee's death, and it was expanded nationwide on May 17, 1980. Then came May 18th in Gwangju. 45 years have passed. Yesterday, on December 3, 2024, at 10 PM, President Yoon Suk-yeol declared martial law and blockaded the National Assembly. Martial Law Commander Park An-su stated through a proclamation that "strikes, work slowdowns, and assembly activities that incite social disorder are prohibited."
 
-박한수 계엄사령관은 포고령을 통해 "사회혼란을 조장하는 파업. 태업. 집회행위를 금한다"라 말했다. 집회행위가. 태업이 파업이 사회혼란을 조장하는가? 광장의 시민들이 반 국가세력인가? 국회의 국회의원들이 범죄자 집단인가? 거리에서 진실을 전하는 언론이 허위선동세력인가? 윤석열 대통령은 이 무수한 반국가세력과 범죄자 집단, 허위선동세력 을 밀어내고 어떤 국가를 만들고자 했는가? 그들은 어떤 '사회혼란'을 진압하고 대체 어디서 그들의 '질서'를 찾고자 했는가?
 
-우린 이미 역사 속에서 숱하게 답을 보았다. 1980년 5월 광주의 열사들에서 보았다. 1970년의 타버린 근로기준법에서, 1987년 6월의 연세대 정문에서, 2015년 물대포에 쓰러졌던 농민에게서도 보았다. 계엄을 선포하고, 헬기를 투입하고, 장갑차로 밀어붙이고. 창문을 부수고, 시민에게 총구를 들이밀어야 얻을 수 있는 질서라면 그런 질서 따위 필 요없다. 당신들의 질서는 이미 지지를 잃었다. 시민의 동의 없는 권력은 그저 폭력에 불과하다.
+Do assembly activities, work slowdowns, and strikes really incite social disorder? Are the citizens in the squares anti-state forces? Are the National Assembly members a criminal group? Are the media conveying truth on the streets false propaganda forces?
+What kind of nation did President Yoon Suk-yeol intend to create by pushing aside these countless anti-state forces, criminal groups, and false propaganda forces? What kind of "social disorder" were they trying to suppress, and where exactly were they seeking to find their "order"?
 
-그럼에도 그 질서를 폭력으로 관철하고자 한다면 우린 저항할 것이다. 연세대 비정규 공대위는 사회의 일원으로서 차별받는 장애인, 성소수자, 여성, 아동과 연대한다. 연세 공 동체의 일부로서 학내 소수자, 시설관리노동자, 비정규교원 및 강사와 연대한다. 공대위는 민주주의 사회 시민으로서의 의무를 이행한다. 시민으로서 연대하며, 힘을 합쳐 폭력 에 저항한다. 이 의무를 국가가 사회 혼란이라 한다면 우리는 마땅히 혼란이 되어 시민을 옥죄고, 자유를 파괴하고, 생명을 위협하는 질서에 맞서리라.
 
-윤석열 대통령에게 요구한다.
+We have already seen the answer countless times throughout history. We saw it in the martyrs of Gwangju in May 1980. We saw it in the burned Labor Standards Act of 1970, at the main gate of Yonsei University in June 1987, and in the farmer who fell to water cannons in 2015.
+If the only way to achieve order is by declaring martial law, deploying helicopters, pushing forward with armored vehicles, breaking windows, and pointing guns at citizens, then we don't need such order. Your order has already lost support. Power without citizens' consent is merely violence.
 
-명분 없는 계엄으로 국민을 겁박한 것을 당장 사과하라. 계열의 진행 과정과 책임소재를 명명백백히 규명하라. 이 모든 사태에 책임을 지고 즉각 대통령에서 하야하라.
 
-2024. 12. 04.
-연세대 비정규 노동문제 해결을 위한 공/동/대/책/위/원/회`
+Nevertheless, if you attempt to enforce that order through violence, we will resist.
+The Yonsei University Irregular Workers' Joint Committee stands in solidarity with discriminated disabled people, sexual minorities, women, and children as members of society. As part of the Yonsei community, we stand in solidarity with campus minorities, facility management workers, irregular faculty, and lecturers.
+
+
+The Joint Committee fulfills its duty as citizens of a democratic society. We stand in solidarity as citizens and join forces to resist violence. If the state calls this duty social disorder, then we will rightfully become disorder and stand against an order that oppresses citizens, destroys freedom, and threatens lives.
+
+
+We demand of President Yoon Suk-yeol:
+
+Immediately apologize for intimidating the people with groundless martial law
+Clearly investigate the process and responsibility of martial law implementation
+Take responsibility for this entire situation and immediately step down from the presidency
+
+December 4, 2024
+Joint Committee for Resolving Yonsei University Irregular Labor Issues
+`
     },
     {
         src: "resources/1204_8ug.jpg",
-        title: ` 
-‘민주주의의 심장이 겨눠졌다.’ 우리는 분노를 모아 단호히 규탄한다.`,
-        desc: `2024년 12월 3일, 대한민국은 헌법과 민주주의의 근본을 송두리째 뒤흔드는 중대한 위기를 맞았다. 윤석열 대통령의 비상계엄령 선포는 헌법적 질서를 무너뜨리고, 민주주의의 심장을 겨냥한 위험천만한 폭거였다. 대한민국이 오랜 투쟁과 희생으로 일구어낸 자유와 법치주의를 무참히 유린하려 한 이 시도를 우리는 강력히 규탄한다. 비록 국민과 국회의 단호한 저항으로 계엄령은 철회되었지만, 그 발동 시도 자체가 용납될 수 없는 헌정 질서에 대한 중대한 범죄 행위임을 명백히 밝힌다.
+        title: `'The Heart of Democracy Has Been Targeted.' We Gather Our Anger and Firmly Condemn.`,
+        desc: `On December 3, 2024, the Republic of Korea faced a critical crisis that fundamentally shook the Constitution and the foundations of democracy. President Yoon Suk-yeol's declaration of emergency martial law was a dangerous and reckless act that destroyed constitutional order and targeted the heart of democracy. We strongly condemn this attempt to ruthlessly trample upon the freedom and rule of law that the Republic of Korea has built through long struggles and sacrifices.
 
-헌법 제77조에 따른 계엄령은 국가가 전시나 사변, 혹은 이에 준하는 절체절명의 위기 상황에서만 발동될 수 있는 최후의 수단이다. 이는 국민의 생명과 국가의 존립을 위한 극히 제한적인 조치로, 그 어떤 상황에서도 남용되어서는 안 된다. 그러나 이번 계엄령 시도가 과연 이러한 요건을 충족했는가? 우리는 단호히 '아니오'라고 답한다. 이번 시도는 헌법 정신과 민주적 가치를 정면으로 부정한 것이며, 과거 권위주의 정권 시절 국민의 권리를 억압하기 위해 사용되었던 폭압적 수단을 떠올리게 한다.
+Although martial law was withdrawn due to the resolute resistance of the people and the National Assembly, we clearly state that the very attempt to invoke it was an unacceptable and grave criminal act against the constitutional order.
 
-윤석열 대통령의 계엄령 발동 시도는 법치주의와 민주주의에 대한 노골적이고도 중대한 도전이다. 헌법을 수호해야 할 국가 권력이 오히려 국민의 자유를 짓밟고, 자신들의 권력을 유지하기 위해 불법적 수단을 동원하려 했다는 점에서 이는 명백한 반헌법적 행위다. 우리는 계엄령 철회가 문제의 종결이 아님을 분명히 한다. 원광대학교와 모든 국민들은 이번 계엄령 발동의 법적, 정치적 정당성에 대해 명백한 해명을 요구한다. 이 시도가 어떻게 이루어졌으며, 국가 존립에 실질적 위협이 존재했는지, 또한 계엄령 외의 모든 법적, 정치적 수단이 충분히 검토되었는지를 철저히 밝혀야 한다.
+According to Article 77 of the Constitution, martial law can only be invoked as a last resort during wartime, national emergencies, or situations of comparable dire crisis. This is an extremely limited measure for the protection of people's lives and national survival, and must never be abused under any circumstances. But did this attempt at martial law truly meet these requirements? We firmly answer "No."
 
-이번 사태를 단순한 실수나 오판으로 치부할 수 없다. 이는 민주주의를 무너뜨리고 국민의 기본권을 유린하려는 명백한 의도가 담겨 있으며, 우리는 이에 대해 철저한 책임을 물을 것이다. 최종 결정권자는 누구였으며, 그에 대한 책임은 어떻게 지게 될 것인지 우리는 반드시 밝힐 것을 요구한다. 계엄령 발동 시도는 대한민국의 민주주의와 법치주의에 대한 심각한 도전이었으며, 이러한 행위는 결코 용서받을 수 없다. 우리는 대통령과 그 주변의 관련자들에 대해 그 책임을 끝까지 추궁하고자 한다.
+This attempt was a direct denial of constitutional spirit and democratic values, reminiscent of the oppressive measures used to suppress people's rights during past authoritarian regimes. President Yoon Suk-yeol's attempt to invoke martial law is a blatant and grave challenge to the rule of law and democracy. This is clearly an anti-constitutional act, as state power that should protect the Constitution instead tried to trample on people's freedom and employ illegal means to maintain their own power.
 
-이번 사태는 대한민국의 민주주의와 법치주의가 얼마나 쉽게 위협받을 수 있는지를 여실히 드러냈다. 국민은 헌법의 주권자로서 이러한 불법적 시도가 다시는 반복되지 않도록 강력한 목소리를 내야 한다. 침묵은 곧 권력의 남용을 허용하는 것과 같다. 우리는 이번 사태를 민주주의를 지키기 위한 분수령으로 간주하며, 헌법과 국민의 기본권을 침해하려는 모든 시도를 단호히 거부한다. 계엄령 발동 시도에 대해 우리는 끝까지 책임을 물을 것이며, 헌법적 원칙과 국민의 권리를 침해한 자들에 대해 엄중한 처벌을 요구한다.
+We make it clear that the withdrawal of martial law is not the end of this problem. Wonkwang University and all citizens demand clear explanations regarding the legal and political legitimacy of this martial law declaration. We must thoroughly investigate how this attempt was made, whether there was a real threat to national survival, and whether all legal and political means other than martial law were sufficiently considered.
 
-원광대학교 학생사회는 이번 선언을 통해 우리의 입장을 분명히 밝힌다. 자유와 정의, 그리고 민주주의라는 숭고한 가치를 훼손하려는 모든 불의한 시도는 단호히 규탄받아야 한다. 국민의 권리를 침해하고 헌정 질서를 위협하는 어떠한 행위도 용납될 수 없으며, 이에 대한 우리의 분노는 깊다.
+This incident cannot be dismissed as a simple mistake or misjudgment. It contains clear intent to destroy democracy and violate people's fundamental rights, and we will hold those responsible thoroughly accountable. We demand to know who the final decision-maker was and how they will be held responsible.
 
-우리는 민주주의와 정의를 지키고 역사의 올바른 방향을 되찾기 위해 끝까지 책임 있는 자세로 나아갈 것이다. 이 땅의 민주주의를 수호하려는 우리의 결의는 흔들림 없이 계속될 것이다.
+The attempt to invoke martial law was a serious challenge to the Republic of Korea's democracy and rule of law, and such actions can never be forgiven. We intend to pursue responsibility from the President and related individuals around him to the very end.
 
-2024년 12월 4일`
+This incident clearly revealed how easily the Republic of Korea's democracy and rule of law can be threatened. As sovereign holders under the Constitution, the people must raise strong voices to ensure such illegal attempts are never repeated. Silence is tantamount to allowing the abuse of power.
+
+We regard this incident as a watershed moment for protecting democracy, and we firmly reject all attempts to violate the Constitution and people's fundamental rights. We will pursue responsibility for the martial law attempt to the end and demand severe punishment for those who violated constitutional principles and people's rights.
+
+The Wonkwang University student community clearly states our position through this declaration. All unjust attempts to damage the noble values of freedom, justice, and democracy must be firmly condemned. No acts that violate people's rights and threaten constitutional order can be tolerated, and our anger runs deep.
+
+We will continue with a responsible attitude to the end to protect democracy and justice and restore the correct direction of history. Our resolve to defend democracy in this land will continue unwavering.
+
+December 4, 2024
+`
     },
     {
         src: "resources/1204_8ihwa.jpg",
-        title: "규탄도 질렸다, 내란 수괴 윤석열을 체포하라! 대학생이 앞장서 해방의 깃대를 들자!",
-        desc: `- 윤석열 퇴진을 촉구하는 이화 학내단위 릴레이 성명서 -
+        title: "Liberation Ewha, We Will Continue the History of Democracy and Liberation",
+        desc: `- Ewha Womans University Declaration Condemning President Yoon Suk-yeol's Declaration of Emergency Martial Law -
 
-45년 만에 비상계엄이 선포되었다  
-2024년 12월 3일 화요일 22시 30분경, 하루를 마무리해도 이르지 않은 시각. 대한민국 국민들의 일상은 믿기지 않는 소식으로 산산이 깨졌다. 더 이상 '대통령'이라는 명칭으로 부르는 것조차 아까운 국가반역자 윤석열은 국회와 야당을 가리켜 이들이 "내란을 획책하는 명백한 반국가 행위”를 하고 있다 주장한 뒤, "종북 반국가세력을 일거에 척결하고 자유 헌정 질서를 지키기 위해서라며 비상계엄을 선포했다. 이어 23시경 계엄사령부가 발표한 포고령은 언론과 출판을 통제하고, 일체의 정치활동을 금하며 포고령 위반자들에 대해 "영장 없이 체포, 구금, 압수수색"을 할 수 있다고 명시하는 등 명백히 위헌인 내용을 다수 포함하며 대한민국 민주주의의 시계를 독재 정권 시절로 되감았다.
+On the night of December 3rd, we witnessed the collapse of democracy and constitutional order.
 
-과연 국민의 자유와 안전을 위협하고 있는 것은 누구인가?  
-아직도 윤석열의 임기가 절반이나 남은 지금, 그 만행은 도를 넘은 지 오래다. 불합리한 노동 구조 속 막을 수 있었던 산재로 청년, 여성, 비정규직, 이주민 노동자가 목숨을 잃을 때, 정부는 그 자리에 없었다. 생존권을 위해 투쟁한 노동자들은 정부와 보수 언론에 의해 '종북', '폭력' 세력으로 매도되었다. 노조법 2.3조를 비롯해 간호법, 채 상병 특검법, 전세사기특별법 등의 법안에 총 25회라는, 이승만 정권 이후 전례 없는 횟수의 거부권 행사를 남발할 때에도 윤석열의 귀에 국민들의 목소리는 없었다. 민생과 경제가 끝을 모르고 파탄나며 윤석열 정부의 지지율이 10퍼센트대를 기록하고, 대학가에서 시국 선언이 연이어 발표되는 지금, 윤석열은 마치 마지막 발악이라도 하듯 비상계엄 선포라는 터무니없는 일에까지 이른 것이다.
+On the night of December 3, 2024, President Yoon Suk-yeol declared emergency martial law with "resolute national salvation will to counter anti-state forces attempting to collapse the liberal democratic constitutional order." Helicopter sounds were heard over the city center, and the National Assembly was blockaded. Armed soldiers broke windows and entered the National Assembly. Faced with the tragic reality that this is not content from a history book, we feel a sense of mission in the name of Ewha, which has created a history of liberation.
 
-민주주의는 거저 얻어낸 것이 아니다  
-1970년 전태일 열사의 투쟁에서도, 1980년 5월 광주에도, 1987년 6월 민주항쟁과 노동자 대투쟁에서도, 2016년 광화문의 촛불시위에서도, 죽음과 폭력의 위협을 무릅쓰고 나선 사람들이 있었다. 역사적 진보의 모든 순간에는 노동자와 학생, 청년들이, 그리고 성별, 나이, 직업, 계층을 불문하고 인간답게 살 권리와 민주주의를 지키기 위해 일어선 수많은 국민들이 있었다. 지난 3일 계엄령이 선포된 그 밤에, 담을 넘어 가며 국회로 들어선 국회의원들이 있었던 동시에 국회 밖에는 깃대를 들고 집결한 민주노총 산하의 수많은 노동조합 지부와 시민 단체들이, 맨몸으로 군인을 막아선 시민들이 있었다. 국회 앞 현장에서 발인한 시민들 중 다수는 "도저히 집에 있을 수 없었던 대학생, 청년들이었다.
+Who are the anti-state forces that collapse constitutional order? 
+President Yoon Suk-yeol has damaged the history of democracy built with blood through his declaration of emergency martial law for the first time in 44 years. The one who takes away the freedom of the people and the press. The one who violated the Constitution. The one who damages democracy. President Yoon Suk-yeol himself is the anti-state force that destroys constitutional order. The people are feeling enormous anger beyond shock and dismay. After the declaration of martial law, citizens including university students desperately gathered at the National Assembly to lift martial law, and the emergency martial law was lifted with the approval of 190 National Assembly members. But it's not over yet. President Yoon Suk-yeol, who tried to erase the history of democracy and liberation created by the people using the power given by the people, must be judged by the people's hands.
 
-계엄은 아직 끝나지 않았다  
-4일 01시경 재석한 190명의 국회의원이 만장일치로 계엄 해제 결의안을 가결하고, 05시경 국무회의에서 계엄 해제를 의결하며 3일 밤의 계엄령 사태는 일단락되었다. 하지만 언제든 서울 상공에 헬기를 띄우고 국회에 계엄군을 투입할 수 있는 윤석열 정권의 민낯은 전국민에게 드러났다. 윤석열에게 마땅한 대가를 치르게 하기 전까지, 이런 현실 속에서 발 뻗고 편히 잠들 수 없는 대다수의 민중들은, 그중 특히 노동자와 여성·장애인·성소수자·이주민 등 사회적 소수자들은, 끝없이 밤잠을 설쳐야 할 것이다.
+We will protect the history of democracy and liberation that Ewha has created.
+Ewha has written the history of democracy and liberation until now. In June 1987, students' class boycotts and the declaration by 17 Ewha professors created the democracy of today. And in 2016, with the power of Ewha people, we forced former President Choi Kyung-hee to resign and created the signal for Park Geun-hye's impeachment. Also, in that process, we created the first direct presidential election system among private universities, laying the foundation for democracy in university society.
 
-구호를 외치자! 광장으로 나오자! 역사의 옳은 편에 서는 것을 두려워하지 말자! 지난 3일 밤 3시간만에 국회의 계엄 해제 의결이 완료되었던 것도, 밤을 새워 국회의 정문을 지킨 시민 동지들의 엄호가 있었던 덕분이다. 우리에게는 서로의 족쇄를 깨부술 연대가 있고, 틀어막힌 서로의 목소리에 힘을 실어 줄 동지가 있다. 과거 독재 정권 시절 화염병을 던지며 민주화를 이뤄낸 해방이화의 선배들에게 진 빚을 우리가 미래의 후배들에게 갚아내자. 오는 12월 7일 토요일 윤석열 퇴진 3차 총궐기 범국민대회에 참여하고, 이화여대 학생 시국선언에 이름을 실어 힘을 보태자. 어두운 밤이 지나고 새 날이 올 때까지 꿋꿋이 흔들리지 말자. 투쟁!
-
-반헌법적 계엄 선포로 대통령 자격을 잃은 윤석열은 즉각 퇴진하라!
-
-2024년 12월 4일  
-이화여대 노학연대모임 바위
-
-[연대단위] 대학생기후행동 이화여대 지부, 이화가 일본군성노예제 문제 해결에 나서는 동아리 이화나비,  
-이화장애인권동아리. 이화 소수자인권위원회, 이화여대 민주동문회, 이화동문비상행동 비상대책위원회,  
-중앙이화회, 이화여대 장애인권 자치기구 휠릭스길잡이, 이화여자대학교 중앙여자고시회,  
-이화여자대학교 소수자인권위원회`
-    },
-    {
-        src: "resources/1204_ihwa.jpg",
-        title: "해방이화, 민주주의와 해방의 역사를 이어나가겠습니다",
-        desc: `- 윤석열 대통령의 비상계엄령 선포 규탄 이화여대 시국선언문 -
-        
-12월 3일 밤, 무너지는 민주주의와 헌정 질서를 목도했습니다.
-2024년 12월 3일 밤, 윤석열 대통령은 '자유민주주의 헌정 질서를 붕괴시키려는 반국가세력에 맞서 결연한 구국의 의지로 비상계엄을 선포했습니다. 도심에 헬기 소리가 들리고, 국회는 봉쇄되었습니다. 무장한 군인들은 유리창을 깨고 국회로 진입했습니다. 이것이 역사책 내용이 아니라는 비참한 현실 앞에, 해방의 역사를 만들어온 이화의 이름에 사명감을 느낍니다.
-
-헌정 질서를 붕괴하는 반국가세력은 누구입니까? 
-윤석열 대통령은 44년만의 비상계엄선포로 피로 만들어진 민주주의의 역사를 훼손하였습니다. 국민과 언론의 자유를 빼앗는 자. 헌법을 위반한 자. 민주주의를 훼손하는 자. 윤석열 대통령 본인이 바로 헌정 질서 파괴, 반국가세력입니다.
-국민들은 경악과 충격을 넘어 거대한 분노를 느끼고 있습니다. 계엄선포 이후 대학생들을 포함한 시민들은 필사적으로 계엄령 해제를 위해 국회로 모였고, 국회의원 190인의 찬성으로 비상계엄령이 해제되었습니다. 하지만 아직 끝나지 않았습니다. 국민이 준 권력으로 국민이 만들어온 민주주의와 해방의 역사를 지우고자 한 윤석열 대통령은 국민의 손으로 심판 받아야 합니다.
-
-이화가 만들어왔던 민주주의와 해방의 역사를 지키겠습니다. 
-이화는 지금까지 민주주의와 해방의 역사를 써왔습니다. 1987년 6월, 학생들의 수업거부, 이화 교수 17명 시국 선언문 발표 등 선배님들이 써오셨던 역사는 지금의 민주주의를 만들었습니다. 그리고 2016년, 이화인의 힘으로 최경희 전 총장을 사퇴시키고 박근혜 탄핵의 신호탄을 만들었습니다. 또한, 그 과정에서 사립대학 최초의 총장 직선제를 만들어내며 대학사회 민주주의의 기틀을 마련했습니다. 이화는 언제나 민주주의의 최전선에서 해방의 역사를 이어왔기에, 2024년 헌정 질서를 흔드는 윤석열 정권의 비상 계엄령 조치에 맞서 민주주의를 반드시 지켜내겠습니다.
+Since Ewha has always continued the history of liberation at the forefront of democracy, we will definitely protect democracy against the Yoon Suk-yeol administration's emergency martial law measures that shake constitutional order in 2024.
 
 2024.12.04.
-해방이화 제56대 총학생회, 해방이화 제56대 중앙운영위원회
-해방이화 제56대 간호대학 단대운영위원회, 해방이화 제26대 경영대학 단대운영위원회, 해방이화 제29대 공과대학 단대운영위원회, 해방이화 제40대 동아리연합회, 해방이화 제56대 사범대학 단대운영위원회, 해방이화 제29대 사회과학대학 단대운영위원회, 해방이화 제18대 스크랜튼대학 단대운영위원회, 해방이화 제7대 신산업융합대학 단대운영위원회, 해방이화 제57대 약학대학 단대운영위원회, 해방이화 제56대 음악대학 단대운영위원회, 해방이화 제3대 인공지능대학 단대운영위원회, 해방이화 제56대 인문과학대학 단대운영위원회, 해방이화 제56대 자연과학대학 단대운영위원회, 해방이화 제56대 조형예술대학
-단대운영위원회, 해방이화 제7대 정시모집통합선발제도 특별위원회`
+
+Liberation Ewha 56th Student Council,
+Liberation Ewha 56th Central Operating Committee
+Liberation Ewha 56th College of Nursing Operating Committee,
+Liberation Ewha 26th College of Business Administration Operating Committee,
+Liberation Ewha 29th College of Engineering Operating Committee,
+Liberation Ewha 40th Club Union,
+Liberation Ewha 56th College of Education Operating Committee,
+Liberation Ewha 29th College of Social Sciences Operating Committee,
+Liberation Ewha 18th Scranton College Operating Committee,
+Liberation Ewha 7th College of New Industry Convergence Operating Committee,
+Liberation Ewha 57th College of Pharmacy Operating Committee,
+Liberation Ewha 56th College of Music Operating Committee,
+Liberation Ewha 3rd College of Artificial Intelligence Operating Committee,
+Liberation Ewha 56th College of Liberal Arts Operating Committee,
+Liberation Ewha 56th College of Natural Sciences Operating Committee,
+Liberation Ewha 56th College of Art and Design Operating Committee,
+Liberation Ewha 7th Regular Admission Integrated Selection System Special Committee
+`
     },
     {
         src: "resources/1204_10jbu.jpg",
-        title: `시국선언문 
-- 윤석열의 비상계엄령 규탄 -`,
-        desc: `전북대학교 총학생회는 윤석열 대통령의 비상계엄령 선언에 깊은 우려를 표명한다.
+        title: `Declaration on Current Situation - Condemning Yoon Suk-yeol's Emergency Martial Law -`,
+        desc: `The Jeonbuk National University Student Council expresses deep concern regarding President Yoon Suk-yeol's declaration of emergency martial law. This measure is an act that seriously violates citizens' freedom and rights, which are fundamental principles of democracy.
 
-이 조치는 민주주의의 근본 원칙인 시민의 자유와 권리를 심각하게 침해한 행위이다.
+Yoon Suk-yeol's surprise declaration of emergency martial law is a deplorable act where the government has turned away from communication with the people, strengthened dictatorial rule, and abandoned the government's primary duty to protect citizens' rights and respect democratic procedures.
 
-기습적인 윤석열의 비상계엄 선포는 정부가 국민과의 소통을 외면하고 독재적 통치를 강화하여 시민의 권리를 보호하고, 민주적 절차를 존중하여야 하는 정부의 제1 의무를 저버린 개탄스러운 행위이다.
+We feel deep disappointment and anger at this absolutely unacceptable situation where the government suppresses the people's voices and considers them illegal.
 
-우리는 곧 정부가 국민의 목소리를 억압하고, 이를 불법으로 간주하는 결코 용납할 수 없는 이 상황에 대해 깊은 실망과 분노를 느낀다.
+At Jeonbuk National University, where the spirit of Senior Lee Se-jong, who organized the April 4th demonstration that was the beginning of the April 19th Revolution and was the first victim of the May 18th Democratization Revolution, lives on, the Student Council will do everything in its power to defend the justice and human rights of fellow students. This will serve as proof that democracy must be protected and how condemnable illegal and improper methods of governance truly are.
 
-4.19 혁명의 효시였던 4.4 시위를 조직했고. 5.18 민주화 혁명 최초의 희생자인 이세종 선배님의 혼이 살아있는 전북대학교에서 총학생회는 학우님들의 정의와 인권을 수호하기 위해 온 힘을 다할 것이며 이는 민주주의는 지켜져야 하며 위법된, 옳지 못한 방식의 통치가 얼마나 비난받아 마땅한 행위인지에 대한 반증이 될 것이다.
+Hoping that our voices will not be silenced, the Jeonbuk National University Student Council strongly condemns Yoon Suk-yeol's emergency martial law.
 
-우리의 목소리가 침묵하지 않기를 바라며 전북대학교 총학생회는 윤석열의 비상계엄을 강력히 규탄한다.
-
-2024. 12. 4.  
-전북대학교 제57대 이유 총학생회
+December 4, 2024
+Jeonbuk National University 57th "Reason" Student Council
 `
     },
     {
         src: "resources/1204_9jju.jpg",
-        title: "윤석열 대통령의 비상계엄 선포를 규탄한다.",
-        desc: `대한민국은 민주주의 국가이며, 헌법정신이 깃든 법치주의 국가다.
+        title: "We Condemn President Yoon Suk-yeol's Declaration of Emergency Martial Law.",
+        desc: `The Republic of Korea is a democratic nation and a constitutional state imbued with constitutional spirit. We cannot help but feel indignant at the arbitrary, illegal, and unilateral declaration of emergency martial law that ignored the procedures established by the Constitution and laws.
 
-헌법과 법률이 정한 절차를 무시한 독단적이고 위법적인, 일방적 비상계엄 선포에 개탄을 금치 못한다. 민의의 전당인 국회가 군화에 짓밟힘과 동시에 헌법정신과 국민의 기본권은 안중에도 없는 듯했다.
+The National Assembly, the hall of public will, was trampled by military boots, and it seemed as if constitutional spirit and citizens' fundamental rights were of no concern whatsoever. Due to this unprecedented situation that occurred for the first time in 44 years, our people spent the night in fear and confusion.
 
-이처럼, 44년 만에 발생한 초유의 사태에 우리 국민들은 공포와 혼란 속에 밤을 지새웠다.
+According to Article 77, Paragraph 1 of the Constitution of the Republic of Korea, the President may declare martial law in accordance with the provisions of law when it is necessary to meet military needs with armed forces or to maintain public peace and order in times of war, armed conflict, or comparable national emergency situations. However, we cannot understand which constitutional requirements this emergency martial law declaration corresponds to.
 
-대한민국 헌법 제77조 1항에 따르면 대통령은 전시·사변 또는 이에 준하는 국가비상사태에 있어서 병력으로써 군사상의 필요에 응하거나 공공의 안녕질서를 유지할 필요가 있을 때에는 법률이 정하는 바에 의하여 계엄을 선포할 수 있다.
+Beyond conflicts of political ideology, this emergency martial law declaration is an unjust measure with no justification whatsoever. It drove the people into fear and damaged the democratic values that the people have protected.
 
-하지만, 이번 비상계엄선포는 헌법의 어떤 요건에 해당하는지 도저히 이해할 수 없다. 정치적 이념의 갈등을 떠나 이번 비상계엄 선포는 어떠한 명분도 존재하지 않는 부당한 처사다. 국민들을 공포 속으로 몰아놨고, 국민들이 지켜왔던 민주주의 가치를 훼손하였다.
+We condemn President Yoon Suk-yeol's such irrational and undemocratic actions.
 
-윤석열 대통령의 이러한 비상식적이고 비민주적인 행위를 규탄한다.
+The Jeju National University Student Council, descendants of April 3rd, will continue to raise our voices and stand against injustice to prevent the repetition of painful history caused by unjust public authority and to protect the democracy that our predecessors fought against oppression and suppression to preserve.
 
-4·3의 후예 제주대학교 총학생회는 부당한 공권력으로 인한 아픈 역사가 되풀이되지 않도록, 우리 선배들이 억압과 탄압에 투쟁하여 지켜낸 민주주의를 지켜낼 수 있도록 끝까지 목소리를 내고 맞설 것이다.
-
-2024년 12월 4일
-제주대학교 56대 상상 총학생회`
+December 4, 2024
+Jeju National University 56th "Imagination" Student Council
+`
     },
     {
         src: "resources/1205_1k .jpg",
