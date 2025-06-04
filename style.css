@@ -167,7 +167,7 @@ a:focus .link-text {
 }
 
 html[lang="en"] .horizontal-container.shifted {
-    transform: translateX(70vw);
+    transform: translateX(60vw);
 }
 
 .panel {/* 임의로 길게 */
@@ -343,9 +343,7 @@ body {
     transition: transform 2s ease;
     overflow-x: hidden;
 }
-html[lang="en"] .about-text {
-    font-size: 13px; /* 또는 네가 원하는 크기 */
-}
+
 
 
 #about-page {
@@ -381,10 +379,10 @@ html[lang="en"] .about-text {
 }
 
 html[lang="en"] #about-page {
-    width: 70vw;
+    width: 60vw;
 }
 html[lang="en"] .about-active body {
-    transform: translateX(70vw);
+    transform: translateX(60vw);
 }
 .about-active #about-page {
     display: block;
@@ -406,6 +404,10 @@ html[lang="en"] .about-active body {
     text-align: left;
     max-width: 600px;
     box-sizing: border-box;
+}
+html[lang="en"] .about-text {
+    font-size: 14px; /* 또는 네가 원하는 크기 */
+    line-height: 1.2;
 }
 
 @media (max-width: 1200px) {
