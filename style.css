@@ -340,6 +340,9 @@ body {
     transition: transform 2s ease;
     overflow-x: hidden;
 }
+html[lang="en"] .about-text {
+    font-size: 13px; /* 또는 네가 원하는 크기 */
+}
 
 #about-page {
     position: fixed;
