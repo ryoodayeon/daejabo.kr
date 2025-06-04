@@ -938,18 +938,25 @@ if (window.innerWidth <= 720) {
             const dotRect = dot.getBoundingClientRect();
             const relativeLeft = dotRect.left - containerRect.left;
 
-            if (
-    relativeLeft >= container.clientWidth * 0.05 &&
-    relativeLeft <= container.clientWidth * 0.3
-) {
-    dot.querySelector('.hover-box').style.display = 'block';
-} else {
-    dot.querySelector('.hover-box').style.display = 'none';
-}
+            const show = (
+                relativeLeft >= container.clientWidth * 0.05 &&
+                relativeLeft <= container.clientWidth * 0.3
+            );
 
+            const hoverBox = dot.querySelector('.hover-box');
+            const hoverBoxEn = dot.querySelector('.hover-box-en');
+
+            if (hoverBox) {
+                hoverBox.style.display = show ? 'block' : 'none';
+            }
+
+            if (hoverBoxEn) {
+                hoverBoxEn.style.display = show ? 'block' : 'none';
+            }
         });
     });
 }
+
 
 if (window.innerWidth <= 720) {
     const aboutPage = document.getElementById('about-page');
