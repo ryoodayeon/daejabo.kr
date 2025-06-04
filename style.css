@@ -262,64 +262,64 @@ html[lang="en"] .horizontal-container.shifted {
 @media (max-width: 720px) {
 
     .dot-wrapper.dot-3 {
-        left: 2086px;
+        left: 1926px;
     }
     .dot-wrapper.dot-4 {
-        left: 3952px;
+        left: 6052px;
     }
     .dot-wrapper.dot-5 {
-        left: 6978px;
+        left: 8078px;
     }
     .dot-wrapper.dot-6 {
-        left: 7738px;
+        left: 8738px;
     }
     .dot-wrapper.dot-7 {
-        left: 9254px;
-    }
-    .dot-wrapper.dot-8 {
         left: 9508px;
     }
+    .dot-wrapper.dot-8 {
+        left: 9708px;
+    }
     .dot-wrapper.dot-9 {
-        left: 9760px;
+        left: 9960px;
     }
     .dot-wrapper.dot-10 {
-        left: 10760px;
+        left: 10820px;
     }
     .dot-wrapper.dot-11 {
-        left: 10849px;
+        left: 10900px;
     }
     .dot-wrapper.dot-12 {
-        left: 10939px;
+        left: 10980px;
     }
     .dot-wrapper.dot-13 {
-        left: 11031px;
+        left: 11060px;
     }
     .dot-wrapper.dot-14 {
-        left: 11108px;
+        left: 11140px;
     }
     .dot-wrapper.dot-15 {
-        left: 11195px;
+        left: 11210px;
     }
     .dot-wrapper.dot-16 {
-        left: 11282px;
+        left: 11290px;
     }
     .dot-wrapper.dot-17 {
-        left: 11372px;
+        left: 11360px;
     }
     .dot-wrapper.dot-18 {
-        left: 11530px;
+        left: 12230px;
     }
     .dot-wrapper.dot-19 {
-        left: 11648px;
+        left: 12448px;
     }
     .dot-wrapper.dot-20 {
-        left: 12734px;
+        left: 12534px;
     }
     .dot-wrapper.dot-21 {
-        left: 12808px;
+        left: 13208px;
     }
     .dot-wrapper.dot-22 {
-        left: 13314px;
+        left: 13714px;
     }
 }
 .dot-wrapper:hover .dot-label {
@@ -580,9 +580,9 @@ html[lang="en"] .about-text {
     }
     .about-text {
         position: absolute;
-        padding-top: 20px;
         align-items: flex-start;
-        
+        padding-left: 5px;
+        padding-right: 5px;
     }
     html[lang="en"] #about-page {
         width: 90vw;
