@@ -112,6 +112,7 @@ body {
     .left-nav {
         color: #ffffff;
         padding: 2px 2px;
+        z-index: 9999;
     }
 } 
 
