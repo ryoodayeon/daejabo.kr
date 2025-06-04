@@ -592,11 +592,12 @@ html[lang="en"] .about-text {
         transform: translateX(75vw);
     }
     .about-text {
+        top: 30px;
         position: absolute;
         align-items: flex-start;
         padding-left: 50px;
-        padding-right: 50px;
-        max-width: 600px;
+        padding-right: 30px;
+        max-width: 400px;
         box-sizing: border-box;
     }
     html[lang="en"] #about-page {
