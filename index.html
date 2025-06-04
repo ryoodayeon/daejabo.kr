@@ -722,12 +722,6 @@
 
 
 <div id="about-page" style="display: none; text-align:left;">
-    <nav class="top-nav-abour">
-        <div class="nav-left on-about" onclick="goBackFromAbout()">BACK</div>
-        <div class="nav-right">
-            <a href="index.html"><span class="link-text">KR</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="en.html"><span class="link-text">EN</span></a>
-        </div>
-    </nav>
     <div class="about-text">
 12월 3일 밤 10시 30분, 윤석열이 비상계엄을 선포하고, 다음 날 새벽 4시 이를 해제했다. 그날 아침 캠퍼스 이곳저곳에는 벽보, 일명 ‘대자보’ 혹은 ‘자보’가 붙어있었다.
 
@@ -849,22 +843,20 @@ function goBackFromImage() {
 
 function showAboutPage() {
     const container = document.querySelector('.horizontal-container');
-    const containerWidth = container.scrollWidth;
-    const viewportWidth = window.innerWidth;
-
-    // 가장 왼쪽 내용물이 중앙에 오도록 scrollLeft 이동
     container.scrollLeft = 0;
-
-    // horizontal-container shift
     container.classList.add('shifted');
-
-    // about-page 띄우기
     document.getElementById('about-page').style.display = 'flex';
 
-    // nav 버튼 전환
+    if (window.innerWidth <= 720) {
+        requestAnimationFrame(() => {
+            document.getElementById('about-page').scrollTop = 0;
+        });
+    }
+
     document.querySelector('.nav-left').textContent = 'BACK';
     document.querySelector('.nav-left').setAttribute('onclick', 'goBackFromAbout()');
 }
+
 
 function goBackFromAbout() {
     const container = document.querySelector('.horizontal-container');

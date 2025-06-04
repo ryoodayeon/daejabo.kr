@@ -163,16 +163,6 @@ a:focus .link-text {
     transform: skew(-5deg); /* 약간 기울이기 효과 (선택) */
 }
 
-.nav-left.on-about {
-    user-select: none;
-    cursor: pointer;
-    padding: 0px 10px;
-    color: #000;
-    background-color: #ffffff;
-    padding: 2px 2px;
-    z-index: 9999;
-    display: inline-block;
-}
 
 
 
@@ -286,61 +276,61 @@ html[lang="en"] .horizontal-container.shifted {
         left: 1926px;
     }
     .dot-wrapper.dot-4 {
-        left: 6252px;
+        left: 6342px;
     }
     .dot-wrapper.dot-5 {
-        left: 7978px;
+        left: 7948px;
     }
     .dot-wrapper.dot-6 {
-        left: 8688px;
+        left: 8552px;
     }
     .dot-wrapper.dot-7 {
-        left: 9658px;
+        left: 9758px;
     }
     .dot-wrapper.dot-8 {
-        left: 9858px;
+        left: 9962px;
     }
     .dot-wrapper.dot-9 {
-        left: 10010px;
+        left: 10160px;
     }
     .dot-wrapper.dot-10 {
-        left: 10920px;
+        left: 10940px;
     }
     .dot-wrapper.dot-11 {
-        left: 11000px;
+        left: 11018px;
     }
     .dot-wrapper.dot-12 {
-        left: 11080px;
+        left: 11094px;
     }
     .dot-wrapper.dot-13 {
-        left: 11160px;
+        left: 11170px;
     }
     .dot-wrapper.dot-14 {
-        left: 11240px;
+        left: 11234px;
     }
     .dot-wrapper.dot-15 {
-        left: 11310px;
+        left: 11305px;
     }
     .dot-wrapper.dot-16 {
-        left: 11390px;
+        left: 11376px;
     }
     .dot-wrapper.dot-17 {
-        left: 11460px;
+        left: 11447px;
     }
     .dot-wrapper.dot-18 {
-        left: 12530px;
+        left: 11521px;
     }
     .dot-wrapper.dot-19 {
-        left: 12648px;
+        left: 12446px;
     }
     .dot-wrapper.dot-20 {
-        left: 12734px;
+        left: 12515px;
     }
     .dot-wrapper.dot-21 {
-        left: 13208px;
+        left: 13315px;
     }
     .dot-wrapper.dot-22 {
-        left: 13714px;
+        left: 13678px;
     }
 }
 .dot-wrapper:hover .dot-label {
@@ -364,7 +354,7 @@ html[lang="en"] .horizontal-container.shifted {
 .hover-box-en {
     display: none;
     position: absolute;
-    left: 60px;
+    left: 45px;
     top: 50%;
     transform: translateY(-50%);
     width: max-content;
@@ -386,6 +376,9 @@ html[lang="en"] .horizontal-container.shifted {
 }
 
 .dot-wrapper:hover .hover-box {
+    display: block;
+}
+.dot-wrapper:hover .hover-box-en {
     display: block;
 }
 
@@ -426,7 +419,6 @@ html[lang="en"] .horizontal-container.shifted {
 
 @media (max-width: 720px) {
     .dot-wrapper {
-        position: absolute;
         top: 60px;
         text-align: center;
     }
