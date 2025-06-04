@@ -148,6 +148,7 @@ a:focus .link-text {
 
 @media (max-width: 720px) {
     .nav-left {
+        color: #000;
         background-color: #ffffff;
         padding: 2px 2px;
         z-index: 9999;
@@ -200,70 +201,109 @@ html[lang="en"] .horizontal-container.shifted {
 }
 
 .dot-wrapper3 {
+    position: absolute;
     left: 2386px;
+    text-align: center;
 }
 .dot-wrapper4 {
+    position: absolute;
     left: 7952px;
+    text-align: center;
 }
 .dot-wrapper5 {
+    position: absolute;
     left: 9978px;
+    text-align: center;
 }
 .dot-wrapper6 {
+    position: absolute;
     left: 10738px;
+    text-align: center;
 }
 .dot-wrapper7 {
+    position: absolute;
     left: 12254px;
+    text-align: center;
 }
 .dot-wrapper8 {
+    position: absolute;
     left: 12508px;
+    text-align: center;
 }
 .dot-wrapper9 {
+    position: absolute;
     left: 12760px;
+    text-align: center;
 }
 .dot-wrapper10 {
+    position: absolute;
     left: 13760px;
+    text-align: center;
 }
 .dot-wrapper11 {
+    position: absolute;
     left: 13849px;
+    text-align: center;
 }
 .dot-wrapper12 {
+    position: absolute;
     left: 13939px;
+    text-align: center;
 }
 .dot-wrapper13 {
+    position: absolute;
     left: 14031px;
+    text-align: center;
 }
 .dot-wrapper14 {
+    position: absolute;
     left: 14108px;
+    text-align: center;
 }
 .dot-wrapper15 {
+    position: absolute;
     left: 14195px;
 }
 .dot-wrapper16 {
+    position: absolute;
     left: 14282px;
+    text-align: center;
 }
 .dot-wrapper17 {
+    position: absolute;
     left: 14372px;
+    text-align: center;
 }
 .dot-wrapper18 {
+    position: absolute;
     left: 14530px;
+    text-align: center;
 }
 .dot-wrapper19 {
+    position: absolute;
     left: 14648px;
+    text-align: center;
 }
 .dot-wrapper20 {
+    position: absolute;
     left: 15734px;
+    text-align: center;
 }
 .dot-wrapper21 {
+    position: absolute;
     left: 16808px;
+    text-align: center;
 }
 .dot-wrapper22 {
+    position: absolute;
     left: 17314px;
+    text-align: center;
 }
 
 @media (max-width: 720px) {
 
     .dot-wrapper3 {
-        left: 1586px;
+        left: 2086px;
     }
     .dot-wrapper4 {
         left: 3952px;
