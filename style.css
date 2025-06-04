@@ -108,13 +108,7 @@ body {
     right: 15px; /* 오른쪽 끝에서 약간 띄우기 */
 }
 
-@media (max-width: 720px) {
-    .left-nav {
-        color: #ffffff;
-        padding: 2px 2px;
-        z-index: 9999;
-    }
-} 
+
 
 .prev-btn, 
 .next-btn {
@@ -152,6 +146,13 @@ a:focus .link-text {
 }
 
 
+@media (max-width: 720px) {
+    .nav-left {
+        color: #ffffff;
+        padding: 2px 2px;
+        z-index: 9999;
+    }
+}
 
 
 
@@ -247,7 +248,18 @@ html[lang="en"] .horizontal-container.shifted {
     text-align: left;
     margin-right: 5px; /* 숫자와 한글 사이 여백 */
 }
-
+.timexxx {
+    display: inline-block;
+    width: 100px; /* 시간 숫자 폭 고정 */
+    text-align: left;
+    margin-right: 5px; /* 숫자와 한글 사이 여백 */
+}
+.timexxxx {
+    display: inline-block;
+    width: 120px; /* 시간 숫자 폭 고정 */
+    text-align: left;
+    margin-right: 5px; /* 숫자와 한글 사이 여백 */
+}
 .desc {
     flex: 1;
 }

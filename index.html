@@ -957,7 +957,21 @@ if (window.innerWidth <= 720) {
     });
 }
 
+if (window.innerWidth <= 720) {
+  const scaleFactor = 10738 / 10000; // 예시: 원래 전체 width 대비 비율 계산
 
+    document.querySelectorAll('.dot-wrapper').forEach((dot, i) => {
+    // 기존 left값 가져오기
+    const originalLeft = parseFloat(dot.style.left);
+    const newLeft = originalLeft * 0.3; // 또는 원하는 비율로 줄이기
+    dot.style.left = `${newLeft}px`;
+    });
+}
+
+if (window.innerWidth <= 720) {
+    const aboutPage = document.getElementById('about-page');
+    aboutPage.scrollTop = 0;
+}
 
 
 
