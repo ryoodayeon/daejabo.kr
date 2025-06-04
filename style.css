@@ -198,127 +198,127 @@ html[lang="en"] .horizontal-container.shifted {
     pointer-events: none;
 }
 
-.dot-3 {
+.dot-wrapper.dot-3 {
     left: 2386px;
 }
-.dot-4 {
+.dot-wrapper.dot-4 {
     left: 7952px;
 }
-.dot-5 {
+.dot-wrapper.dot-5 {
     left: 9978px;
 }
-.dot-6 {
+.dot-wrapper.dot-6 {
     left: 10738px;
 }
-.dot-7 {
+.dot-wrapper.dot-7 {
     left: 12254px;
 }
-.dot-8 {
+.dot-wrapper.dot-8 {
     left: 12508px;
 }
-.dot-9 {
+.dot-wrapper.dot-9 {
     left: 12760px;
 }
-.dot-10 {
+.dot-wrapper.dot-10 {
     left: 13760px;
 }
-.dot-11 {
+.dot-wrapper.dot-11 {
     left: 13849px;
 }
-.dot-12 {
+.dot-wrapper.dot-12 {
     left: 13939px;
 }
-.dot-13 {
+.dot-wrapper.dot-13 {
     left: 14031px;
 }
-.dot-14 {
+.dot-wrapper.dot-14 {
     left: 14108px;
 }
-.dot-15 {
+.dot-wrapper.dot-15 {
     left: 14195px;
 }
-.dot-16 {
+.dot-wrapper.dot-16 {
     left: 14282px;
 }
-.dot-17 {
+.dot-wrapper.dot-17 {
     left: 14372px;
 }
-.dot-18 {
+.dot-wrapper.dot-18 {
     left: 14530px;
 }
-.dot-19 {
+.dot-wrapper.dot-19 {
     left: 14648px;
 }
-.dot-20 {
+.dot-wrapper.dot-20 {
     left: 15734px;
 }
-.dot-21 {
+.dot-wrapper.dot-21 {
     left: 16808px;
 }
-.dot-22 {
+.dot-wrapper.dot-22 {
     left: 17314px;
 }
 
 @media (max-width: 720px) {
 
-    .dot-3 {
+    .dot-wrapper.dot-3 {
         left: 2086px;
     }
-    .dot-4 {
+    .dot-wrapper.dot-4 {
         left: 3952px;
     }
-    .dot-5 {
+    .dot-wrapper.dot-5 {
         left: 6978px;
     }
-    .dot-6 {
+    .dot-wrapper.dot-6 {
         left: 7738px;
     }
-    .dot-7 {
+    .dot-wrapper.dot-7 {
         left: 9254px;
     }
-    .dot-8 {
+    .dot-wrapper.dot-8 {
         left: 9508px;
     }
-    .dot-9 {
+    .dot-wrapper.dot-9 {
         left: 9760px;
     }
-    .dot-10 {
+    .dot-wrapper.dot-10 {
         left: 10760px;
     }
-    .dot-11 {
+    .dot-wrapper.dot-11 {
         left: 10849px;
     }
-    .dot-12 {
+    .dot-wrapper.dot-12 {
         left: 10939px;
     }
-    .dot-13 {
+    .dot-wrapper.dot-13 {
         left: 11031px;
     }
-    .dot-14 {
+    .dot-wrapper.dot-14 {
         left: 11108px;
     }
-    .dot-15 {
+    .dot-wrapper.dot-15 {
         left: 11195px;
     }
-    .dot-16 {
+    .dot-wrapper.dot-16 {
         left: 11282px;
     }
-    .dot-17 {
+    .dot-wrapper.dot-17 {
         left: 11372px;
     }
-    .dot-18 {
+    .dot-wrapper.dot-18 {
         left: 11530px;
     }
-    .dot-19 {
+    .dot-wrapper.dot-19 {
         left: 11648px;
     }
-    .dot-20 {
+    .dot-wrapper.dot-20 {
         left: 12734px;
     }
-    .dot-21 {
+    .dot-wrapper.dot-21 {
         left: 12808px;
     }
-    .dot-22 {
+    .dot-wrapper.dot-22 {
         left: 13314px;
     }
 }
