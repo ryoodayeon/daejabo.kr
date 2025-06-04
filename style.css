@@ -145,16 +145,14 @@ a:focus .link-text {
     transform: skew(-5deg); /* 약간 기울이기 효과 (선택) */
 }
 
-
-@media (max-width: 720px) {
-    .nav-left {
-        color: #000;
-        background-color: #ffffff;
-        padding: 2px 2px;
-        z-index: 9999;
-        display: inline-block;
-    }
+.nav-left.on-about {
+    color: #000;
+    background-color: #ffffff;
+    padding: 2px 2px;
+    z-index: 9999;
+    display: inline-block;
 }
+
 
 
 

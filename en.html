@@ -955,6 +955,11 @@ if (window.innerWidth <= 720) {
     const aboutPage = document.getElementById('about-page');
     aboutPage.scrollTop = 0;
 }
+if (aboutPage && aboutPage.offsetParent !== null) { // 보이는 경우
+navLeft.classList.add('on-about');
+} else {
+navLeft.classList.remove('on-about');
+}
 
 
 </script>
