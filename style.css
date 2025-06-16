@@ -113,36 +113,31 @@ body {
 }
 
 
-.left-nav, .right-nav {
-    position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 550; /* 최상단 */
-}
-.left-nav {
-    left: 10px; /* 왼쪽 끝에서 약간 띄우기 */
-}
-.right-nav {
-    right: 15px; /* 오른쪽 끝에서 약간 띄우기 */
-}
-
-
-
-.prev-btn, 
-.next-btn {
-    font-size: 40px;
-    cursor: pointer;
-    border-radius: 4px;
-    user-select: none;
-    color: black;
-}
-
 .nav-left,
 .nav-right {
     user-select: none;
     cursor: pointer;
     padding: 0px 10px;
 }
+
+.click-zone {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 50vw;
+    z-index: 700;
+}
+
+.left-click-zone {
+    left: 0;
+    cursor: w-resize; /* 손가락 커서 */
+}
+
+.right-click-zone {
+    right: 0;
+    cursor: e-resize;
+}
+
 
 .link-text {
     opacity: 1;
@@ -612,6 +607,14 @@ html[lang="en"] .about-text {
     flex-direction: row;
     overflow: hidden; /* 전체에서 스크롤 없앰 */
 }
+#about-page {
+  overflow-y: auto;
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+#about-page::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari */
+}
 
 #image-page .container {
     display: flex;
@@ -628,6 +631,7 @@ html[lang="en"] .about-text {
     background-color: gray;
 }
 
+
 .left-side img {
     max-width: 100%;
     max-height: 100%;
@@ -637,6 +641,7 @@ html[lang="en"] .about-text {
 
 .right-side {
     flex: 1;
+    height: 100vh;
     display: fixed;
     flex-direction: column;
     padding-top: 40px;
@@ -644,8 +649,8 @@ html[lang="en"] .about-text {
     background-color: #f1f1f1;
     overflow-y: auto;
     overflow-x: hidden;
+    
 }
-
 
 #image-title, #image-desc {
     width: 90%;               /* ✅ 좌우 여백은 이 안에서 */
@@ -709,18 +714,21 @@ html[lang="en"] .about-text {
 ::-webkit-scrollbar {
     height: 8px;  /* 가로 스크롤용 */
     width: 8px;   /* 세로 스크롤용 */
-    z-index: 0;
+    z-index: 9999;
+
 }
 
 /* 스크롤바 트랙 */
 ::-webkit-scrollbar-track {
     background: #f1f1f1;  /* 배경 */
+    z-index: 9999;
 }
 
 /* 스크롤바 핸들 */
 ::-webkit-scrollbar-thumb {
     background: black;  /* 손잡이 */
     border-radius: 0;   /* 네모나게 */
+    z-index: 9999;
 }
 
 #verdict-page {

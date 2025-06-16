@@ -747,13 +747,8 @@
     <a href="index.html"><span class="link-text">KR</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="en.html"><span class="link-text">EN</span></a>
         </div>
     </nav>
-    <nav class="left-nav">
-        <div id="prev-btn" class="prev-btn">❮</div>
-    </nav>
-    <nav class="right-nav">
-        <div id="next-btn" class="next-btn">❯</div>
-
-    </nav>
+    <div class="click-zone left-click-zone"></div>
+    <div class="click-zone right-click-zone"></div>    
     <div class="container">
         <div class="left-side">
             <img id="big-image" src="" alt="대자보 이미지">
@@ -884,37 +879,39 @@ function toggleAboutPage() {
 }
 
 
-// Prev 버튼
-document.querySelector('.prev-btn').addEventListener('click', () => {
+document.querySelector('.left-click-zone').addEventListener('click', () => {
     currentIndex = (currentIndex - 1 + images.length) % images.length;
     showImagePage(currentIndex);
 });
 
-// Next 버튼
-document.querySelector('.next-btn').addEventListener('click', () => {
+document.querySelector('.right-click-zone').addEventListener('click', () => {
     currentIndex = (currentIndex + 1) % images.length;
     showImagePage(currentIndex);
 });
 
+
 document.addEventListener('wheel', function(e) {
     const primary = document.getElementById('primary');
     const verdictPage = document.getElementById('verdict-page');
+    const aboutPage = document.getElementById('about-page');
+    const imagePage = document.getElementById('image-page'); // ✅ 수정됨
 
     const isPrimaryVisible = primary && primary.style.display !== 'none';
     const isVerdictVisible = verdictPage && verdictPage.style.display !== 'none';
+    const isAboutVisible = aboutPage && aboutPage.style.display !== 'none';
+    const isImageVisible = imagePage && imagePage.style.display !== 'none';
 
-    if (isVerdictVisible) {
-        // verdict-page 열렸으면 기본 세로 스크롤 허용 (아무 간섭 안 함)
-        return;
-    }
+    if (isVerdictVisible) return;
+
+    if (isAboutVisible || isImageVisible) return;
 
     if (isPrimaryVisible) {
-        // primary가 열렸을 때만 horizontal scroll 강제
         e.preventDefault();
         document.querySelector('.horizontal-container').scrollLeft += e.deltaY;
     }
-    // else: 기본 브라우저 동작 (아무 간섭 안 함)
 }, { passive: false });
+
+
 
 
 const container = document.querySelector('.horizontal-container');
@@ -955,19 +952,6 @@ if (window.innerWidth <= 400) {
     });
 }
 
-
-if (window.innerWidth <= 720) {
-    const aboutPage = document.getElementById('about-page');
-    aboutPage.scrollTop = 0;
-}
-const aboutPage = document.getElementById('about-page');
-const navLeft = document.querySelector('.nav-left');
-
-if (aboutPage && aboutPage.offsetParent !== null) { // 보이는 경우
-navLeft.classList.add('on-about');
-} else {
-navLeft.classList.remove('on-about');
-}
 
 
 </script>
