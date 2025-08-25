@@ -85,12 +85,12 @@ body {
     left: 0;
     width: 100vw;
     height: 40px;
-    background-color: #ffffff;
+    background-color: #f1f1f1;
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 900; 
+    z-index: 10000; 
     font-family: "Space Grotesk", sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -572,8 +572,9 @@ html[lang="en"] .about-active body {
     box-sizing: border-box;
 }
 html[lang="en"] .about-text {
-    font-size: 14px; /* 또는 네가 원하는 크기 */
-    line-height: 1.2;
+    font-size: 14px;
+    line-height: 1.4;
+    padding-bottom: 100px; /* 영어 텍스트를 위한 추가 여백 */
 }
 
 @media (max-width: 1200px) {
@@ -584,13 +585,12 @@ html[lang="en"] .about-text {
         transform: translateX(75vw);
     }
     .about-text {
-        top: 30px;
-        position: absolute;
+        position: relative;
         align-items: flex-start;
-        padding-left: 50px;
-        padding-right: 30px;
+        padding: 80px 50px 30px 50px;
         max-width: 400px;
         box-sizing: border-box;
+        overflow-y: visible;
     }
     html[lang="en"] #about-page {
         width: 90vw;
@@ -600,20 +600,40 @@ html[lang="en"] .about-text {
     }
 }
 
+@media (max-width: 720px) {
+    #about-page {
+        width: 100vw;
+        height: 100vh;
+        padding: 20px;
+    }
+    .about-active body {
+        transform: translateX(100vw);
+    }
+    html[lang="en"] #about-page {
+        width: 100vw;
+    }
+    html[lang="en"] .about-active body {
+        transform: translateX(100vw);
+    }
+    .about-text {
+        position: relative;
+        padding: 60px 20px 80px 20px;
+        max-width: none;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    html[lang="en"] .about-text {
+        padding-bottom: 120px; /* 모바일에서 영어 텍스트를 위한 더 많은 여백 */
+    }
+}
+
 /*image-page*/
 #image-page {
     width: 100%;
     height: 100vh;
     flex-direction: row;
     overflow: hidden; /* 전체에서 스크롤 없앰 */
-}
-#about-page {
-  overflow-y: auto;
-  -ms-overflow-style: none;  /* IE & Edge */
-  scrollbar-width: none;     /* Firefox */
-}
-#about-page::-webkit-scrollbar {
-  display: none;             /* Chrome, Safari */
 }
 
 #image-page .container {
