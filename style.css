@@ -508,10 +508,7 @@ html[lang="en"] .horizontal-container.shifted {
 
 /*about*/
 
-body {
-    transition: transform 2s ease;
-    overflow-x: hidden;
-}
+/* body transition은 이미 위에서 정의되어 있으므로 제거 */
 
 
 
@@ -598,6 +595,9 @@ html[lang="en"] .about-text {
     html[lang="en"] #about-page {
         width: 90vw;
     }
+    html[lang="en"] .about-active body {
+        transform: translateX(90vw);
+    }
 }
 
 /*image-page*/
@@ -642,14 +642,14 @@ html[lang="en"] .about-text {
 .right-side {
     flex: 1;
     height: 100vh;
-    display: fixed;
+    display: flex;
     flex-direction: column;
     padding-top: 40px;
     padding-bottom: 80px;
     background-color: #f1f1f1;
-    overflow-y: auto;
+    overflow-y: scroll;
     overflow-x: hidden;
-    
+    -webkit-overflow-scrolling: touch; /* iOS에서 부드러운 스크롤 */
 }
 
 #image-title, #image-desc {
@@ -658,7 +658,6 @@ html[lang="en"] .about-text {
     margin: 5% auto;        /* ✅ 가운데 정렬 + 위아래 여백 */
     padding: 0;               /* ✅ padding 대신 margin 사용 */
     box-sizing: border-box;
-    max-width: 600px;
     line-height: 1.4;
     white-space: pre-wrap;
 }
@@ -672,7 +671,7 @@ html[lang="en"] .about-text {
 #image-desc {
     font-size: 16px;
     padding-right: 5%;
-    font-weight: medium;
+    font-weight: 500;
     justify-content: center;
 }
 
